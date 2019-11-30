@@ -38,21 +38,21 @@ function Layout(props) {
     },
     __self: this
   }), __jsx("div", {
-    className: "jsx-3624755467" + " " + "Badges",
+    className: "jsx-3072500480" + " " + "Badges",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
   }, __jsx("div", {
-    className: "jsx-3624755467" + " " + "Badges__hero",
+    className: "jsx-3072500480" + " " + "Badges__hero",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
   }, __jsx("div", {
-    className: "jsx-3624755467" + " " + "Badges__container",
+    className: "jsx-3072500480" + " " + "Badges__container",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
@@ -61,16 +61,16 @@ function Layout(props) {
   }, __jsx("img", {
     src: _static_LOGO_MOVENU_BLANCO_png__WEBPACK_IMPORTED_MODULE_3___default.a,
     alt: "Conf Logo",
-    className: "jsx-3624755467" + " " + "Badges_conf-logo",
+    className: "jsx-3072500480" + " " + "Badges_conf-logo",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
     },
     __self: this
   })))), props.children, __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "3624755467",
+    id: "3072500480",
     __self: this
-  }, ".Badges__hero.jsx-3624755467{width:100%;padding:2rem 0;background:url('../static/stars.svg'),#1B1B25;background-repeat:repeat;margin-bottom:1rem;}.Badges__hero.jsx-3624755467>.Badges__container.jsx-3624755467{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}.Badges__container.jsx-3624755467{width:100%;height:auto;padding:0 20px 20px 20px;text-align:center;}.Badges__list__container.jsx-3624755467>.form-group.jsx-3624755467{display:inline-block;width:50%;padding:10px;}.Badges_conf-logo.jsx-3624755467{margin-bottom:2rem;width:260px;}.Badges__buttons.jsx-3624755467 a.jsx-3624755467{padding:10px 10px 10px 10px;width:33%;-webkit-text-decoration:none;text-decoration:none;}.Badges__buttons_two.jsx-3624755467{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:end;-webkit-justify-content:flex-end;-ms-flex-pack:end;justify-content:flex-end;margin-bottom:1rem;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcbGJyaXRvXFxEcm9wYm94XFxEZXNhcnJvbGxvc1xcTW92ZW51IFZlcnNpb24gMjAxOVxcY29tcG9uZW50c1xcTGF5b3V0LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQXdCYyxBQUlvQixBQVFFLEFBTUYsQUFRVSxBQU9GLEFBWVMsQUFPZixXQS9DRSxBQWNILFFBZUEsRUFQRixFQVBlLEdBZHNCLEVBd0NyQyxHQWxCRyxBQU9mLE9BWXVCLE1BbEJ2QixJQVJvQixrQkFDcEIsTUFmMkIsRUFNSCxBQXdDRyxjQUwzQixTQXhDcUIsbUJBQ3JCLG9DQUtxQixtQkF3Q0EsbUJBQ3JCLHVEQXhDQSIsImZpbGUiOiJDOlxcVXNlcnNcXGxicml0b1xcRHJvcGJveFxcRGVzYXJyb2xsb3NcXE1vdmVudSBWZXJzaW9uIDIwMTlcXGNvbXBvbmVudHNcXExheW91dC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBOYXZiYXIgZnJvbSAnLi9OYXZiYXInO1xyXG5pbXBvcnQgY29uZkxvZ28gZnJvbSAnLi4vc3RhdGljL0xPR08tTU9WRU5VLUJMQU5DTy5wbmcnO1xyXG5cclxuZnVuY3Rpb24gTGF5b3V0KHByb3BzKSB7XHJcbiAgLy8gY29uc3QgY2hpbGRyZW4gPSBwcm9wcy5jaGlsZHJlbjtcclxuXHJcbiAgcmV0dXJuIChcclxuICAgIDxSZWFjdC5GcmFnbWVudD5cclxuICAgICAgPE5hdmJhciAvPlxyXG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cIkJhZGdlc1wiPlxyXG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJCYWRnZXNfX2hlcm9cIj5cclxuICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJCYWRnZXNfX2NvbnRhaW5lclwiPlxyXG4gICAgICAgICAgICAgIDxpbWdcclxuICAgICAgICAgICAgICAgIGNsYXNzTmFtZT1cIkJhZGdlc19jb25mLWxvZ29cIlxyXG4gICAgICAgICAgICAgICAgc3JjPXtjb25mTG9nb31cclxuICAgICAgICAgICAgICAgIGFsdD1cIkNvbmYgTG9nb1wiXHJcbiAgICAgICAgICAgICAgLz5cclxuICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICA8L2Rpdj5cclxuXHJcblxyXG4gICAgICB7cHJvcHMuY2hpbGRyZW59XHJcblxyXG4gIDxzdHlsZSBqc3g+e2BcclxuXHJcbiAgICAgIC5CYWRnZXNfX2hlcm8ge1xyXG4gICAgICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgICAgIHBhZGRpbmc6IDJyZW0gMDtcclxuICAgICAgICBiYWNrZ3JvdW5kOiB1cmwoJy4uL3N0YXRpYy9zdGFycy5zdmcnKSwgIzFCMUIyNTtcclxuICAgICAgICBiYWNrZ3JvdW5kLXJlcGVhdDogcmVwZWF0O1xyXG4gICAgICAgIG1hcmdpbi1ib3R0b206IDFyZW07XHJcbiAgICAgIH1cclxuICAgICAgXHJcbiAgICAgIC5CYWRnZXNfX2hlcm8+LkJhZGdlc19fY29udGFpbmVyIHtcclxuICAgICAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XHJcbiAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuICAgICAgfVxyXG4gICAgICBcclxuICAgICAgLkJhZGdlc19fY29udGFpbmVyIHtcclxuICAgICAgICB3aWR0aDogMTAwJTtcclxuICAgICAgICBoZWlnaHQ6IGF1dG87XHJcbiAgICAgICAgcGFkZGluZzogMCAyMHB4IDIwcHggMjBweDtcclxuICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICAgIH0gIFxyXG4gICAgICBcclxuICAgICAgXHJcbiAgICAgIC5CYWRnZXNfX2xpc3RfX2NvbnRhaW5lcj4uZm9ybS1ncm91cHtcclxuICAgICAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcbiAgICAgICAgd2lkdGg6IDUwJTtcclxuICAgICAgICBwYWRkaW5nOiAxMHB4O1xyXG4gICAgICB9XHJcbiAgICAgIFxyXG4gICAgICBcclxuICAgICAgLkJhZGdlc19jb25mLWxvZ28ge1xyXG4gICAgICAgIG1hcmdpbi1ib3R0b206IDJyZW07XHJcbiAgICAgICAgd2lkdGg6IDI2MHB4O1xyXG4gICAgICB9XHJcbiAgICAgIFxyXG4gICAgICAvKiAuQmFkZ2VzX19idXR0b25zIHtcclxuICAgICAgICBtYXJnaW46IDUwcHggNTBweCA1MHB4IDUwcHg7XHJcbiAgICAgICAgZGlzcGxheTogZ3JpZCA7XHJcbiAgICAgICAganVzdGlmeS1jb250ZW50OiBmbGV4LXN0YXJ0IDtcclxuICAgICAgICBtYXJnaW4tYm90dG9tOiAxcmVtO1xyXG4gICAgICB9ICovXHJcbiAgICAgIFxyXG4gICAgICAuQmFkZ2VzX19idXR0b25zIGEge1xyXG4gICAgICAgIHBhZGRpbmc6IDEwcHggMTBweCAxMHB4IDEwcHg7XHJcbiAgICAgICAgd2lkdGg6IDMzJTtcclxuICAgICAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XHJcbiAgICAgIH1cclxuICAgICAgXHJcbiAgICAgIFxyXG4gICAgICAuQmFkZ2VzX19idXR0b25zX3R3byB7XHJcbiAgICAgICAgZGlzcGxheTogZmxleDtcclxuICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGZsZXgtZW5kO1xyXG4gICAgICAgIG1hcmdpbi1ib3R0b206IDFyZW07XHJcbiAgICAgIH1cclxuICBgfTwvc3R5bGU+XHJcbiAgICA8L1JlYWN0LkZyYWdtZW50PlxyXG4gICk7XHJcbn1cclxuXHJcbmV4cG9ydCBkZWZhdWx0IExheW91dDsiXX0= */\n/*@ sourceURL=C:\\\\Users\\\\lbrito\\\\Dropbox\\\\Desarrollos\\\\Movenu Version 2019\\\\components\\\\Layout.js */"));
+  }, ".Badges.jsx-3072500480{width:100%;}.Badges__hero.jsx-3072500480{width:100%;padding:2rem 0;background:url('../static/stars.svg'),#1B1B25;background-repeat:repeat;margin-bottom:1rem;padding:15px;}.Badges__hero.jsx-3072500480>.Badges__container.jsx-3072500480{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}.Badges__container.jsx-3072500480{width:100%;height:auto;text-align:center;margin:0;}.Badges__list__container.jsx-3072500480>.form-group.jsx-3072500480{display:inline-block;width:50%;padding:10px;}.Badges_conf-logo.jsx-3072500480{margin-bottom:2rem;width:260px;}.Badges__buttons.jsx-3072500480 a.jsx-3072500480{padding:10px 10px 10px 10px;width:33%;-webkit-text-decoration:none;text-decoration:none;}.Badges__buttons_two.jsx-3072500480{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:end;-webkit-justify-content:flex-end;-ms-flex-pack:end;justify-content:flex-end;margin-bottom:1rem;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcbGJyaXRvXFxEcm9wYm94XFxEZXNhcnJvbGxvc1xcTW92ZW51IFZlcnNpb24gMjAxOVxcY29tcG9uZW50c1xcTGF5b3V0LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQXdCYyxBQUdrQixBQUlFLEFBU0UsQUFNRixBQVFVLEFBT0YsQUFLUyxBQU9mLFdBN0NqQixBQUltQixBQWVILFFBZUEsRUFQRixFQVBRLEdBZjZCLEVBa0NyQyxHQVhHLEFBT2YsT0FLdUIsR0FuQlosR0FRWCxNQVBBLHNCQWhCMkIsRUFPSCxBQWlDRyxjQUwzQixTQWxDcUIsbUJBQ04sYUFDZix1QkFLcUIsbUJBaUNBLG1CQUNyQix1REFqQ0EiLCJmaWxlIjoiQzpcXFVzZXJzXFxsYnJpdG9cXERyb3Bib3hcXERlc2Fycm9sbG9zXFxNb3ZlbnUgVmVyc2lvbiAyMDE5XFxjb21wb25lbnRzXFxMYXlvdXQuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTmF2YmFyIGZyb20gJy4vTmF2YmFyJztcclxuaW1wb3J0IGNvbmZMb2dvIGZyb20gJy4uL3N0YXRpYy9MT0dPLU1PVkVOVS1CTEFOQ08ucG5nJztcclxuXHJcbmZ1bmN0aW9uIExheW91dChwcm9wcykge1xyXG4gIC8vIGNvbnN0IGNoaWxkcmVuID0gcHJvcHMuY2hpbGRyZW47XHJcblxyXG4gIHJldHVybiAoXHJcbiAgICA8UmVhY3QuRnJhZ21lbnQ+XHJcbiAgICAgIDxOYXZiYXIgLz5cclxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJCYWRnZXNcIj5cclxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiQmFkZ2VzX19oZXJvXCI+XHJcbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiQmFkZ2VzX19jb250YWluZXJcIj5cclxuICAgICAgICAgICAgICA8aW1nXHJcbiAgICAgICAgICAgICAgICBjbGFzc05hbWU9XCJCYWRnZXNfY29uZi1sb2dvXCJcclxuICAgICAgICAgICAgICAgIHNyYz17Y29uZkxvZ299XHJcbiAgICAgICAgICAgICAgICBhbHQ9XCJDb25mIExvZ29cIlxyXG4gICAgICAgICAgICAgIC8+XHJcbiAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgPC9kaXY+XHJcblxyXG5cclxuICAgICAge3Byb3BzLmNoaWxkcmVufVxyXG5cclxuICA8c3R5bGUganN4PntgXHJcbiAgICAuQmFkZ2Vze1xyXG4gICAgICB3aWR0aDogMTAwJTtcclxuICAgIH1cclxuXHJcbiAgICAgIC5CYWRnZXNfX2hlcm8ge1xyXG4gICAgICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgICAgIHBhZGRpbmc6IDJyZW0gMDtcclxuICAgICAgICBiYWNrZ3JvdW5kOiB1cmwoJy4uL3N0YXRpYy9zdGFycy5zdmcnKSwgIzFCMUIyNTtcclxuICAgICAgICBiYWNrZ3JvdW5kLXJlcGVhdDogcmVwZWF0O1xyXG4gICAgICAgIG1hcmdpbi1ib3R0b206IDFyZW07XHJcbiAgICAgICAgcGFkZGluZzogMTVweDtcclxuICAgICAgfVxyXG4gICAgICBcclxuICAgICAgLkJhZGdlc19faGVybz4uQmFkZ2VzX19jb250YWluZXIge1xyXG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICAgICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcclxuICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG4gICAgICB9XHJcbiAgICAgIFxyXG4gICAgICAuQmFkZ2VzX19jb250YWluZXIge1xyXG4gICAgICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgICAgIGhlaWdodDogYXV0bztcclxuICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICAgICAgbWFyZ2luOiAwO1xyXG4gICAgICB9ICBcclxuICAgICAgXHJcbiAgICAgIFxyXG4gICAgICAuQmFkZ2VzX19saXN0X19jb250YWluZXI+LmZvcm0tZ3JvdXB7XHJcbiAgICAgICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG4gICAgICAgIHdpZHRoOiA1MCU7XHJcbiAgICAgICAgcGFkZGluZzogMTBweDtcclxuICAgICAgfVxyXG4gICAgICBcclxuICAgICAgXHJcbiAgICAgIC5CYWRnZXNfY29uZi1sb2dvIHtcclxuICAgICAgICBtYXJnaW4tYm90dG9tOiAycmVtO1xyXG4gICAgICAgIHdpZHRoOiAyNjBweDtcclxuICAgICAgfVxyXG4gICAgICBcclxuICAgICAgLkJhZGdlc19fYnV0dG9ucyBhIHtcclxuICAgICAgICBwYWRkaW5nOiAxMHB4IDEwcHggMTBweCAxMHB4OyBcclxuICAgICAgICB3aWR0aDogMzMlO1xyXG4gICAgICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcclxuICAgICAgfVxyXG4gICAgICBcclxuICAgICAgXHJcbiAgICAgIC5CYWRnZXNfX2J1dHRvbnNfdHdvIHtcclxuICAgICAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgICAgIGp1c3RpZnktY29udGVudDogZmxleC1lbmQ7XHJcbiAgICAgICAgbWFyZ2luLWJvdHRvbTogMXJlbTtcclxuICAgICAgfVxyXG4gIGB9PC9zdHlsZT5cclxuICAgIDwvUmVhY3QuRnJhZ21lbnQ+XHJcbiAgKTtcclxufVxyXG5cclxuZXhwb3J0IGRlZmF1bHQgTGF5b3V0OyJdfQ== */\n/*@ sourceURL=C:\\\\Users\\\\lbrito\\\\Dropbox\\\\Desarrollos\\\\Movenu Version 2019\\\\components\\\\Layout.js */"));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
@@ -163,7 +163,13 @@ function (_React$Component) {
           lineNumber: 13
         },
         __self: this
-      }, "Hola Mundo Bicameral")));
+      }, "Hola Mundo Bicameral")), __jsx("style", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16
+        },
+        __self: this
+      }, "\n            .Bicameral__face{\n                width: 90%;\n                position: relative; \n              }\n              \n              .div-img{\n                  display: inline; \n                  margin-left: auto;\n                  margin-right: auto; \n              }\n              \n              .img{\n                  -webkit-border-radius: 10px;\n                  -moz-border-radius: 10px;\n                  border-radius: 10px;\n/*                   display:block; */\n                  width: 90%;   \n                  margin-left: auto;\n                  margin-right: auto;\n                  transform:scale(1);\n                  -ms-transform:scale(1); \n                  -moz-transform:scale(1); \n                  -webkit-transform:scale(1); \n                  -o-transform:scale(1); \n                  -webkit-transition: all 500ms ease-in-out;\n                  -moz-transition: all 500ms ease-in-out; \n                  -ms-transition: all 500ms ease-in-out; \n                  -o-transition: all 500ms ease-in-out;       \n              }     \n              \n              .div-img > .title{\n                  font-family: 'Open Sans';\n                  padding-top: 100px;\n/*                   display:block; */\n                  text-align: center;\n                  width: 100%;   \n                  font-size: 40px;\n                  transform:translate(0px);\n                  -webkit-transition: all 500ms ease-in-out;\n                  -moz-transition: all 500ms ease-in-out;\n                  -ms-transition: all 500ms ease-in-out;\n                  -o-transition: all 500ms ease-in-out;\n                  opacity: 0;\n                  transition: transfom opacity 1.5s;\n              }\n              \n              .img:hover{\n                      transform:scale(0.8);\n                      -ms-transform:scale(0.8); \n                      -moz-transform:scale(0.8); \n                      -webkit-transform:scale(0.8);  \n                      -o-transform:scale(0.8);\n              }\n              .div-img:hover >.title:hover{\n                  transform:translate(0px,-20px);\n                  opacity: 1;\n                  \n                  }\n              \n      "));
     }
   }]);
 
@@ -248,7 +254,13 @@ function (_React$Component) {
           lineNumber: 11
         },
         __self: this
-      }, "Hola Mundo Bicameral")));
+      }, "Hola Mundo Bicameral")), __jsx("style", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 13
+        },
+        __self: this
+      }, "\n          .Security__face{\n            width:100%;\n            position: relative;\n          }\n          \n          .div-img{\n              display: inline;\n              margin-left: auto;\n              margin-right: auto; \n          }\n          \n          .img{\n              -webkit-border-radius: 10px;\n              -moz-border-radius: 10px;\n              border-radius: 10px;\n              display:block;\n              width: 90%;   \n              margin-left: auto;\n              margin-right: auto;\n              transform:scale(1);\n              -ms-transform:scale(1); \n              -moz-transform:scale(1); \n              -webkit-transform:scale(1); \n              -o-transform:scale(1); \n              -webkit-transition: all 500ms ease-in-out;\n              -moz-transition: all 500ms ease-in-out; \n              -ms-transition: all 500ms ease-in-out; \n              -o-transition: all 500ms ease-in-out;       \n          }     \n          \n          .div-img > .title{\n              font-family: 'Open Sans';\n              padding-top: 100px;\n              display:block;\n              text-align: center;   \n              font-size: 40px;\n              transform:translate(0px);\n              -webkit-transition: all 500ms ease-in-out;\n              -moz-transition: all 500ms ease-in-out;\n              -ms-transition: all 500ms ease-in-out;\n              -o-transition: all 500ms ease-in-out;\n              opacity: 0;\n              transition: transfom opacity 1.5s;\n          }\n          \n          .img:hover{\n                  transform:scale(0.8);\n                  -ms-transform:scale(0.8); \n                  -moz-transform:scale(0.8); \n                  -webkit-transform:scale(0.8);  \n                  -o-transform:scale(0.8);\n          }\n          .div-img:hover >.title:hover{\n              transform:translate(0px,-20px);\n              opacity: 1;\n              \n              }\n      "));
     }
   }]);
 
@@ -333,7 +345,13 @@ function (_React$Component) {
           lineNumber: 11
         },
         __self: this
-      }, "Hola Mundo unicameral")));
+      }, "Hola Mundo unicameral")), __jsx("style", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
+        },
+        __self: this
+      }, "\n        \n\n.Unicameral__face{\n    width: 100%;\n    position: relative;\n  }\n  \n  .div-img{\n      display: block;\n      margin-left: auto;\n      margin-right: auto; \n  }\n  \n  .img{\n      -webkit-border-radius: 10px;\n      -moz-border-radius: 10px;\n      border-radius: 10px;\n      display:block;\n      margin-left: auto;\n      margin-right: auto;\n      width: 90%;   \n      transform:scale(1);\n      -ms-transform:scale(1); \n      -moz-transform:scale(1); \n      -webkit-transform:scale(1); \n      -o-transform:scale(1); \n      -webkit-transition: all 500ms ease-in-out;\n      -moz-transition: all 500ms ease-in-out; \n      -ms-transition: all 500ms ease-in-out; \n      -o-transition: all 500ms ease-in-out;       \n  }     \n  \n  .div-img > .title{\n      font-family: 'Open Sans';\n      padding-top: 0px;\n      display:block;\n      text-align: center;\n      width: 100%;   \n      font-size: 40px;\n      transform:translate(0px);\n      -webkit-transition: all 500ms ease-in-out;\n      -moz-transition: all 500ms ease-in-out;\n      -ms-transition: all 500ms ease-in-out;\n      -o-transition: all 500ms ease-in-out;\n      opacity: 0;\n      transition: transfom opacity 1.5s;\n  }\n  \n  .img:hover{\n          transform:scale(0.8);\n          -ms-transform:scale(0.8); \n          -moz-transform:scale(0.8); \n          -webkit-transform:scale(0.8);  \n          -o-transform:scale(0.8);\n  }\n  .div-img:hover >.title:hover{\n      transform:translate(0px,-20px);\n      opacity: 1;\n      \n      }\n      "));
     }
   }]);
 
@@ -425,42 +443,42 @@ var Navbar = function Navbar() {
     },
     __self: this
   }, "Staff"))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/comite/unicameral",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
     },
     __self: this
-  }, __jsx("span", {
+  }, __jsx("a", {
     className: "font-weight-light Navbar__items",
+    href: "/comite/unicameral",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
     },
     __self: this
   }, "Crisis Unicameral")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/comite/bicameral",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21
     },
     __self: this
-  }, __jsx("span", {
+  }, __jsx("a", {
     className: "font-weight-light Navbar__items",
+    href: "/comite/bicameral",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22
     },
     __self: this
   }, "Crisis Bicameral")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/comite/security",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 26
     },
     __self: this
-  }, __jsx("span", {
+  }, __jsx("a", {
     className: "font-weight-light Navbar__items",
+    href: "/comite/security",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 27
@@ -472,7 +490,7 @@ var Navbar = function Navbar() {
       lineNumber: 35
     },
     __self: this
-  }, "\n            .Navbar {\n                width: 100%;\n                padding: 0.5rem 0;\n                background-color: #1C3643;\n              }\n              \n              .Navbar__brand {\n                color: #ffffff;\n                display: inline-flex;\n                align-items: center;\n              }\n              \n              .Navbar__brand:hover {\n                color: #ffffff;\n                text-decoration: none;\n              }\n              \n              .Navbar__brand-logo {\n                margin-right: 0.5rem;\n                width: 50px;\n              }\n              \n              .Navbar__items{\n                padding-left: 30px;\n                color: #ffffff;\n                text-decoration: none;\n              }\n              \n              .Navbar__items:hover {\n                color: #ffffff;\n                text-decoration: none;\n              }\n        "));
+  }, "\n            .Navbar {\n                width: 100%;\n                padding: 0.5rem 0;\n                padding-left: 15px;\n                background-color: #1C3643;\n              }\n              \n              .Navbar__brand {\n                color: #ffffff;\n                display: inline-flex;\n                align-items: center;\n                text-decoration: none;\n              }\n              \n              .Navbar__brand:hover {\n                color: #ffffff;\n                text-decoration: none;\n              }\n              \n              .Navbar__brand-logo {\n                margin-right: 0.5rem;\n                width: 50px;\n              }\n              \n              .Navbar__items{\n                padding-left: 30px;\n                color: #ffffff;\n                text-decoration: none;\n              }\n              \n              .Navbar__items:hover {\n                color: #ffffff;\n                text-decoration: none;\n              }\n              .container-fluid {\n                width: 100%;\n                padding-left: 15px;\n\n              }\n              .navbar > .container,\n              .navbar > .container-fluid {\n                display: -ms-flexbox;\n                display: flex;\n                -ms-flex-wrap: wrap;\n                flex-wrap: wrap;\n                -ms-flex-align: center;\n                align-items: center;\n                -ms-flex-pack: justify;\n                justify-content: space-between;\n              }\n\n              @media (max-width: 575.98px) {\n                .navbar-expand-sm > .container,\n                .navbar-expand-sm > .container-fluid {\n                  padding-right: 0;\n                  padding-left: 0;\n                }\n              }\n              .navbar-expand-sm > .container,\n              .navbar-expand-sm > .container-fluid {\n                -ms-flex-wrap: nowrap;\n                flex-wrap: nowrap;\n              }\n              @media (max-width: 767.98px) {\n                .navbar-expand-md > .container,\n                .navbar-expand-md > .container-fluid {\n                  padding-right: 0;\n                  padding-left: 0;\n                }\n              }\n              .navbar-expand-md > .container,\n              .navbar-expand-md > .container-fluid {\n                -ms-flex-wrap: nowrap;\n                flex-wrap: nowrap;\n              }\n              @media (max-width: 991.98px) {\n                .navbar-expand-lg > .container,\n                .navbar-expand-lg > .container-fluid {\n                  padding-right: 0;\n                  padding-left: 0;\n                }\n              }\n              .navbar-expand-lg > .container,\n              .navbar-expand-lg > .container-fluid {\n                -ms-flex-wrap: nowrap;\n                flex-wrap: nowrap;\n              }\n              @media (max-width: 1199.98px) {\n                .navbar-expand-xl > .container,\n                .navbar-expand-xl > .container-fluid {\n                  padding-right: 0;\n                  padding-left: 0;\n                }\n              }\n              .navbar-expand-xl > .container,\n              .navbar-expand-xl > .container-fluid {\n                -ms-flex-wrap: nowrap;\n                flex-wrap: nowrap;\n              }\n              .navbar-expand > .container,\n              .navbar-expand > .container-fluid {\n                padding-right: 0;\n                padding-left: 0;\n              }\n              .navbar-expand > .container,\n              .navbar-expand > .container-fluid {\n                -ms-flex-wrap: nowrap;\n                flex-wrap: nowrap;\n              }\n\n              .font-weight-light {\n                font-weight: 300 !important;\n\n              }\n              .font-weight-bold {\n                font-weight: 700 !important;\n\n              }\n        "));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Navbar);
@@ -11364,9 +11382,6 @@ var _jsxFileName = "C:\\Users\\lbrito\\Dropbox\\Desarrollos\\Movenu Version 2019
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
-/* 
-import './styles/Committees.css'; */
-
 
 
 
@@ -11375,73 +11390,94 @@ var Committees = function Committees() {
   return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 12
     },
     __self: this
   }, __jsx("div", {
-    className: "jsx-1796061464" + " " + "Badges__container",
+    className: "jsx-1349834467" + " " + "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 13
     },
     __self: this
   }, __jsx("h1", {
-    className: "jsx-1796061464",
+    className: "jsx-1349834467",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 14
     },
     __self: this
-  }, "Comites de Crisis Disponibles"), __jsx("div", {
-    className: "jsx-1796061464" + " " + "Badges__buttons",
+  }, "Comites disponibles"), __jsx("div", {
+    className: "jsx-1349834467" + " " + "Badges__container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 15
     },
     __self: this
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    to: "/comite/unicameral",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 18
+    },
+    __self: this
+  }, __jsx("a", {
+    href: "/comite/unicameral",
+    className: "jsx-1349834467",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
     },
     __self: this
   }, __jsx(_components_LinkUnicameral_js__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 19
     },
     __self: this
-  })), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    to: "/comite/bicameral",
+  }))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 23
+    },
+    __self: this
+  }, __jsx("a", {
+    href: "/comite/bicameral",
+    className: "jsx-1349834467",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
     },
     __self: this
   }, __jsx(_components_LinkBicameral__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 24
     },
     __self: this
-  })), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    to: "/comite/security",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28
-    },
-    __self: this
-  }, __jsx(_components_LinkSecurity__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 29
     },
     __self: this
-  })))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "1796061464",
+  }, __jsx("a", {
+    href: "/comite/security",
+    className: "jsx-1349834467",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
     __self: this
-  }, ".Badges__hero.jsx-1796061464{width:100%;padding:2rem 0;background:url('../../images/stars.svg'),#1B1B25;background-repeat:repeat;margin-bottom:1rem;}.Badges__hero.jsx-1796061464>.Badges__container.jsx-1796061464{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}.Badges__container.jsx-1796061464{width:100%;height:auto;padding:0 20px 20px 20px;text-align:center;}.Badges__list__container.jsx-1796061464>.form-group.jsx-1796061464{display:inline-block;width:50%;padding:10px;}.Badges_conf-logo.jsx-1796061464{margin-bottom:2rem;width:260px;}.Badges__buttons.jsx-1796061464 a.jsx-1796061464{padding:10px 10px 10px 10px;width:33%;-webkit-text-decoration:none;text-decoration:none;}.Badges__buttons_two.jsx-1796061464{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:end;-webkit-justify-content:flex-end;-ms-flex-pack:end;justify-content:flex-end;margin-bottom:1rem;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcbGJyaXRvXFxEcm9wYm94XFxEZXNhcnJvbGxvc1xcTW92ZW51IFZlcnNpb24gMjAxOVxccGFnZXNcXGNvbW1pdHRlZXMuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBaUNvQixBQUd3QixBQVFFLEFBTUYsQUFRVSxBQU9GLEFBWVMsQUFPZixXQS9DRSxBQWNILFFBZUEsRUFQRixFQVBlLEdBZHlCLEVBd0N4QyxHQWxCRyxBQU9mLE9BWXVCLE1BbEJ2QixJQVJvQixrQkFDcEIsUUFUd0IsQUF3Q0csQ0E5Q0EsYUF5QzNCLFlBeENxQixtQkFDckIsaUNBS3FCLG1CQXdDQSxtQkFDckIsdURBeENBIiwiZmlsZSI6IkM6XFxVc2Vyc1xcbGJyaXRvXFxEcm9wYm94XFxEZXNhcnJvbGxvc1xcTW92ZW51IFZlcnNpb24gMjAxOVxccGFnZXNcXGNvbW1pdHRlZXMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnO1xyXG4vKiBcclxuaW1wb3J0ICcuL3N0eWxlcy9Db21taXR0ZWVzLmNzcyc7ICovXHJcbmltcG9ydCBMaW5rQmljYW1lcmFsIGZyb20gJy4uL2NvbXBvbmVudHMvTGlua0JpY2FtZXJhbCc7XHJcbmltcG9ydCBMaW5rU2VjdXJpdHkgZnJvbSAnLi4vY29tcG9uZW50cy9MaW5rU2VjdXJpdHknO1xyXG5pbXBvcnQgTGlua1VuaWNhbWVyYWwgZnJvbSAnLi4vY29tcG9uZW50cy9MaW5rVW5pY2FtZXJhbC5qcyc7XHJcblxyXG5cclxuXHJcbmNvbnN0IENvbW1pdHRlZXMgPSAoKSA9PntcclxuICAgICAgICByZXR1cm4gKFxyXG5cclxuICAgICAgICA8UmVhY3QuRnJhZ21lbnQ+XHJcbiAgICAgICAgXHJcbiBcclxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJCYWRnZXNfX2NvbnRhaW5lclwiPlxyXG4gICAgICAgIDxoMT5Db21pdGVzIGRlIENyaXNpcyBEaXNwb25pYmxlczwvaDE+IFxyXG4gXHJcbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIkJhZGdlc19fYnV0dG9uc1wiPlxyXG4gICAgICAgICAgICA8TGluayB0bz1cIi9jb21pdGUvdW5pY2FtZXJhbFwiID5cclxuICAgICAgICAgICAgICAgICA8TGlua1VuaWNhbWVyYWwgLz5cclxuICAgICAgICAgICAgIDwvTGluaz5cclxuIFxyXG4gICAgICAgICAgICAgPExpbmsgdG89XCIvY29taXRlL2JpY2FtZXJhbFwiID5cclxuICAgICAgICAgICAgICAgICA8TGlua0JpY2FtZXJhbCAvPlxyXG4gICAgICAgICAgICAgPC9MaW5rPlxyXG4gXHJcbiAgICAgICAgICAgICA8TGluayB0bz1cIi9jb21pdGUvc2VjdXJpdHlcIiA+ICAgIFxyXG4gICAgICAgICAgICAgICAgIDxMaW5rU2VjdXJpdHkgLz5cclxuICAgICAgICAgICAgPC9MaW5rPlxyXG4gXHJcbiAgICAgICAgICA8L2Rpdj5cclxuICAgICAgPC9kaXY+XHJcbiAgICAgICAgPHN0eWxlIGpzeD57YFxyXG4gICAgICAgICAgLkJhZGdlc19faGVybyB7XHJcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgICAgICAgICBwYWRkaW5nOiAycmVtIDA7XHJcbiAgICAgICAgICAgIGJhY2tncm91bmQ6IHVybCgnLi4vLi4vaW1hZ2VzL3N0YXJzLnN2ZycpLCAjMUIxQjI1O1xyXG4gICAgICAgICAgICBiYWNrZ3JvdW5kLXJlcGVhdDogcmVwZWF0O1xyXG4gICAgICAgICAgICBtYXJnaW4tYm90dG9tOiAxcmVtO1xyXG4gICAgICAgICAgfVxyXG4gICAgICAgICAgXHJcbiAgICAgICAgICAuQmFkZ2VzX19oZXJvPi5CYWRnZXNfX2NvbnRhaW5lciB7XHJcbiAgICAgICAgICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICAgICAgICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XHJcbiAgICAgICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAgICAgICAgICB9XHJcbiAgICAgICAgICBcclxuICAgICAgICAgIC5CYWRnZXNfX2NvbnRhaW5lciB7XHJcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgICAgICAgICBoZWlnaHQ6IGF1dG87XHJcbiAgICAgICAgICAgIHBhZGRpbmc6IDAgMjBweCAyMHB4IDIwcHg7XHJcbiAgICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgICAgICAgIH0gIFxyXG4gICAgICAgICAgXHJcbiAgICAgICAgICBcclxuICAgICAgICAgIC5CYWRnZXNfX2xpc3RfX2NvbnRhaW5lcj4uZm9ybS1ncm91cHtcclxuICAgICAgICAgICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG4gICAgICAgICAgICB3aWR0aDogNTAlO1xyXG4gICAgICAgICAgICBwYWRkaW5nOiAxMHB4O1xyXG4gICAgICAgICAgfVxyXG4gICAgICAgICAgXHJcbiAgICAgICAgICBcclxuICAgICAgICAgIC5CYWRnZXNfY29uZi1sb2dvIHtcclxuICAgICAgICAgICAgbWFyZ2luLWJvdHRvbTogMnJlbTtcclxuICAgICAgICAgICAgd2lkdGg6IDI2MHB4O1xyXG4gICAgICAgICAgfVxyXG4gICAgICAgICAgXHJcbiAgICAgICAgICAvKiAuQmFkZ2VzX19idXR0b25zIHtcclxuICAgICAgICAgICAgbWFyZ2luOiA1MHB4IDUwcHggNTBweCA1MHB4O1xyXG4gICAgICAgICAgICBkaXNwbGF5OiBncmlkIDtcclxuICAgICAgICAgICAganVzdGlmeS1jb250ZW50OiBmbGV4LXN0YXJ0IDtcclxuICAgICAgICAgICAgbWFyZ2luLWJvdHRvbTogMXJlbTtcclxuICAgICAgICAgIH0gKi9cclxuICAgICAgICAgIFxyXG4gICAgICAgICAgLkJhZGdlc19fYnV0dG9ucyBhIHtcclxuICAgICAgICAgICAgcGFkZGluZzogMTBweCAxMHB4IDEwcHggMTBweDtcclxuICAgICAgICAgICAgd2lkdGg6IDMzJTtcclxuICAgICAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xyXG4gICAgICAgICAgfVxyXG4gICAgICAgICAgXHJcbiAgICAgICAgICBcclxuICAgICAgICAgIC5CYWRnZXNfX2J1dHRvbnNfdHdvIHtcclxuICAgICAgICAgICAgZGlzcGxheTogZmxleDtcclxuICAgICAgICAgICAganVzdGlmeS1jb250ZW50OiBmbGV4LWVuZDtcclxuICAgICAgICAgICAgbWFyZ2luLWJvdHRvbTogMXJlbTtcclxuICAgICAgICAgIH1cclxuICAgICAgICBgfTwvc3R5bGU+XHJcbiAgICAgIDwvUmVhY3QuRnJhZ21lbnQ+XHJcbiAgICAgICAgKVxyXG5cclxuICAgfSAgIFxyXG5cclxuIFxyXG4gXHJcbiBleHBvcnQgZGVmYXVsdCBDb21taXR0ZWVzOyJdfQ== */\n/*@ sourceURL=C:\\\\Users\\\\lbrito\\\\Dropbox\\\\Desarrollos\\\\Movenu Version 2019\\\\pages\\\\committees.js */"));
+  }, __jsx(_components_LinkSecurity__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  })))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "1349834467",
+    __self: this
+  }, ".container.jsx-1349834467 h1.jsx-1349834467{text-align:center;}.Badges__container.jsx-1349834467{width:100%;display:grid;grid-template-columns:repeat(auto-fill,minmax(520px,1fr));height:auto;text-align:center;}.Badges_conf-logo.jsx-1349834467{margin-bottom:2rem;width:260px;}a.jsx-1349834467{width:100%;-webkit-text-decoration:none;text-decoration:none;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcbGJyaXRvXFxEcm9wYm94XFxEZXNhcnJvbGxvc1xcTW92ZW51IFZlcnNpb24gMjAxOVxccGFnZXNcXGNvbW1pdHRlZXMuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBbUNvQixBQUkrQixBQUdQLEFBU1EsQUFNUixXQWRHLEFBZU8sT0FsQnZCLENBWWMsS0FSZ0QsT0FTOUQsOEJBTUEscUJBZGMsWUFDTSxrQkFDcEIiLCJmaWxlIjoiQzpcXFVzZXJzXFxsYnJpdG9cXERyb3Bib3hcXERlc2Fycm9sbG9zXFxNb3ZlbnUgVmVyc2lvbiAyMDE5XFxwYWdlc1xcY29tbWl0dGVlcy5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMaW5rIGZyb20gJ25leHQvbGluayc7XHJcblxyXG5pbXBvcnQgTGlua0JpY2FtZXJhbCBmcm9tICcuLi9jb21wb25lbnRzL0xpbmtCaWNhbWVyYWwnO1xyXG5pbXBvcnQgTGlua1NlY3VyaXR5IGZyb20gJy4uL2NvbXBvbmVudHMvTGlua1NlY3VyaXR5JztcclxuaW1wb3J0IExpbmtVbmljYW1lcmFsIGZyb20gJy4uL2NvbXBvbmVudHMvTGlua1VuaWNhbWVyYWwuanMnO1xyXG5cclxuXHJcblxyXG5jb25zdCBDb21taXR0ZWVzID0gKCkgPT57XHJcbiAgICAgICAgcmV0dXJuIChcclxuXHJcbiAgICAgPFJlYWN0LkZyYWdtZW50PlxyXG4gICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb250YWluZXJcIj5cclxuICAgICAgICAgIDxoMT5Db21pdGVzIGRpc3BvbmlibGVzPC9oMT5cclxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiQmFkZ2VzX19jb250YWluZXJcIj5cclxuICAgICAgICAgICAgXHJcblxyXG4gICAgICAgICAgICAgICAgICA8TGluayA+PGEgaHJlZj1cIi9jb21pdGUvdW5pY2FtZXJhbFwiPlxyXG4gICAgICAgICAgICAgICAgICAgICAgPExpbmtVbmljYW1lcmFsIC8+XHJcbiAgICAgICAgICAgICAgICAgIDwvYT5cclxuICAgICAgICAgICAgICAgICAgPC9MaW5rPlxyXG4gICAgICBcclxuICAgICAgICAgICAgICAgICAgPExpbmsgPjxhIGhyZWY9XCIvY29taXRlL2JpY2FtZXJhbFwiPlxyXG4gICAgICAgICAgICAgICAgICAgICAgPExpbmtCaWNhbWVyYWwgLz5cclxuXHJcbiAgICAgICAgICAgICAgICAgIDwvYT5cclxuICAgICAgICAgICAgICAgICAgPC9MaW5rPlxyXG4gICAgICBcclxuICAgICAgICAgICAgICAgICAgPExpbms+PGEgaHJlZj1cIi9jb21pdGUvc2VjdXJpdHlcIj5cclxuICAgICAgICAgICAgICAgICAgICAgIDxMaW5rU2VjdXJpdHkgLz5cclxuICAgICAgICAgICAgICAgICAgICA8L2E+ICAgIFxyXG4gICAgICAgICAgICAgICAgICA8L0xpbms+XHJcbiAgICAgICAgICAgIDwvZGl2PlxyXG4gXHJcblxyXG4gICAgICAgIDxzdHlsZSBqc3g+e2AgIFxyXG4gICAgICAgIFxyXG4gICAgICAgICAgLmNvbnRhaW5lciBoMXtcclxuICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgICAgICAgfVxyXG4gICAgICAgICAgLkJhZGdlc19fY29udGFpbmVyIHtcclxuICAgICAgICAgICAgd2lkdGg6IDEwMCU7XHJcbiAgICAgICAgICAgIGRpc3BsYXk6IGdyaWQgO1xyXG4gICAgICAgICAgICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IHJlcGVhdChhdXRvLWZpbGwsIG1pbm1heCg1MjBweCwgMWZyKSk7IFxyXG4gICAgICAgICAgICBoZWlnaHQ6IGF1dG87XHJcbiAgICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgICAgICAgIH0gIFxyXG4gICAgICAgICAgXHJcbiAgICAgICAgICBcclxuICAgICAgICAgIC5CYWRnZXNfY29uZi1sb2dvIHtcclxuICAgICAgICAgICAgbWFyZ2luLWJvdHRvbTogMnJlbTtcclxuICAgICAgICAgICAgd2lkdGg6IDI2MHB4O1xyXG4gICAgICAgICAgfVxyXG5cclxuICAgICAgICAgIFxyXG4gICAgICAgICAgIGEge1xyXG4gICAgICAgICAgICB3aWR0aDogMTAwJTtcclxuICAgICAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xyXG4gICAgICAgICAgfVxyXG4gICAgICAgICAgXHJcblxyXG4gICAgICAgIGB9PC9zdHlsZT5cclxuICAgICAgPC9kaXY+XHJcbiAgICAgICA8L1JlYWN0LkZyYWdtZW50PiBcclxuICAgICAgICApXHJcblxyXG4gICB9ICAgXHJcblxyXG4gXHJcbiBcclxuIGV4cG9ydCBkZWZhdWx0IENvbW1pdHRlZXM7Il19 */\n/*@ sourceURL=C:\\\\Users\\\\lbrito\\\\Dropbox\\\\Desarrollos\\\\Movenu Version 2019\\\\pages\\\\committees.js */")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Committees);
@@ -11484,9 +11520,9 @@ var Home = function Home() {
     },
     __self: this
   }), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "3826789607",
+    id: "3234240700",
     __self: this
-  }, "body{margin:0;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcbGJyaXRvXFxEcm9wYm94XFxEZXNhcnJvbGxvc1xcTW92ZW51IFZlcnNpb24gMjAxOVxccGFnZXNcXGhvbWUuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBVytCLEFBRzhCLFNBQ2IiLCJmaWxlIjoiQzpcXFVzZXJzXFxsYnJpdG9cXERyb3Bib3hcXERlc2Fycm9sbG9zXFxNb3ZlbnUgVmVyc2lvbiAyMDE5XFxwYWdlc1xcaG9tZS5qcyIsInNvdXJjZXNDb250ZW50IjpbIlxyXG5pbXBvcnQgTGF5b3V0IGZyb20gJy4uL2NvbXBvbmVudHMvTGF5b3V0JztcclxuaW1wb3J0IENvbW1pdHRlZXMgZnJvbSAnLi9jb21taXR0ZWVzJztcclxuXHJcblxyXG5jb25zdCBIb21lID0gKCkgPT4ge1xyXG4gICAgcmV0dXJuICggXHJcbiAgICAgICAgPExheW91dD5cclxuXHJcbiAgICAgICAgICAgIDxDb21taXR0ZWVzIC8+XHJcblxyXG4gICAgICAgICAgICA8c3R5bGUganN4IGdsb2JhbD57YFxyXG4gICAgICAgICAgICAgICAgYm9keSB7XHJcbiAgICAgICAgICAgICAgICAgICAgbWFyZ2luOiAwO1xyXG4gICAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICBgfTwvc3R5bGU+XHJcbiAgICAgICAgPC9MYXlvdXQ+XHJcblxyXG4gICAgICk7XHJcbn1cclxuIFxyXG5leHBvcnQgZGVmYXVsdCBIb21lOyJdfQ== */\n/*@ sourceURL=C:\\\\Users\\\\lbrito\\\\Dropbox\\\\Desarrollos\\\\Movenu Version 2019\\\\pages\\\\home.js */"));
+  }, "body{margin:0;overflow:hidden;font-family:system-ui;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcbGJyaXRvXFxEcm9wYm94XFxEZXNhcnJvbGxvc1xcTW92ZW51IFZlcnNpb24gMjAxOVxccGFnZXNcXGhvbWUuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBVytCLEFBRzhCLFNBQ00sZ0JBQ08sc0JBQzFCIiwiZmlsZSI6IkM6XFxVc2Vyc1xcbGJyaXRvXFxEcm9wYm94XFxEZXNhcnJvbGxvc1xcTW92ZW51IFZlcnNpb24gMjAxOVxccGFnZXNcXGhvbWUuanMiLCJzb3VyY2VzQ29udGVudCI6WyJcclxuaW1wb3J0IExheW91dCBmcm9tICcuLi9jb21wb25lbnRzL0xheW91dCc7XHJcbmltcG9ydCBDb21taXR0ZWVzIGZyb20gJy4vY29tbWl0dGVlcyc7XHJcblxyXG5cclxuY29uc3QgSG9tZSA9ICgpID0+IHtcclxuICAgIHJldHVybiAoIFxyXG4gICAgICAgIDxMYXlvdXQ+XHJcblxyXG4gICAgICAgICAgICA8Q29tbWl0dGVlcyAvPlxyXG5cclxuICAgICAgICAgICAgPHN0eWxlIGpzeCBnbG9iYWw+e2BcclxuICAgICAgICAgICAgICAgIGJvZHkge1xyXG4gICAgICAgICAgICAgICAgICAgIG1hcmdpbjogMDtcclxuICAgICAgICAgICAgICAgICAgICBvdmVyZmxvdzpoaWRkZW47XHJcbiAgICAgICAgICAgICAgICAgICAgZm9udC1mYW1pbHk6IHN5c3RlbS11aTtcclxuICAgICAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgYH08L3N0eWxlPlxyXG4gICAgICAgIDwvTGF5b3V0PlxyXG5cclxuICAgICApO1xyXG59XHJcbiBcclxuZXhwb3J0IGRlZmF1bHQgSG9tZTsiXX0= */\n/*@ sourceURL=C:\\\\Users\\\\lbrito\\\\Dropbox\\\\Desarrollos\\\\Movenu Version 2019\\\\pages\\\\home.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Home);
@@ -11548,7 +11584,7 @@ module.exports = "/_next/static/images/mafia-a8493c2568dd1ff09294b23ca1d3e01c.jp
 
 /***/ }),
 
-/***/ 2:
+/***/ 0:
 /*!**************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fhome&absolutePagePath=C%3A%5CUsers%5Clbrito%5CDropbox%5CDesarrollos%5CMovenu%20Version%202019%5Cpages%5Chome.js ***!
   \**************************************************************************************************************************************************************/
@@ -11571,5 +11607,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[0,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=home.js.map

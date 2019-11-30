@@ -23,6 +23,9 @@ function Layout(props) {
       {props.children}
 
   <style jsx>{`
+    .Badges{
+      width: 100%;
+    }
 
       .Badges__hero {
         width: 100%;
@@ -30,6 +33,7 @@ function Layout(props) {
         background: url('../static/stars.svg'), #1B1B25;
         background-repeat: repeat;
         margin-bottom: 1rem;
+        padding: 15px;
       }
       
       .Badges__hero>.Badges__container {
@@ -41,8 +45,8 @@ function Layout(props) {
       .Badges__container {
         width: 100%;
         height: auto;
-        padding: 0 20px 20px 20px;
         text-align: center;
+        margin: 0;
       }  
       
       
@@ -58,15 +62,8 @@ function Layout(props) {
         width: 260px;
       }
       
-      /* .Badges__buttons {
-        margin: 50px 50px 50px 50px;
-        display: grid ;
-        justify-content: flex-start ;
-        margin-bottom: 1rem;
-      } */
-      
       .Badges__buttons a {
-        padding: 10px 10px 10px 10px;
+        padding: 10px 10px 10px 10px; 
         width: 33%;
         text-decoration: none;
       }

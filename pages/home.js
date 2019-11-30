@@ -12,6 +12,8 @@ const Home = () => {
             <style jsx global>{`
                 body {
                     margin: 0;
+                    overflow:hidden;
+                    font-family: system-ui;
                 }
             `}</style>
         </Layout>

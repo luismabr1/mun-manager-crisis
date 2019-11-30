@@ -13,20 +13,20 @@ const Navbar = () => {
             <span className="font-weight-bold">Staff</span>
           </a></Link>
 
-          <Link  href="/comite/unicameral">
-              <span className="font-weight-light Navbar__items">
+          <Link  >
+              <a className="font-weight-light Navbar__items" href="/comite/unicameral">
                 Crisis Unicameral
-              </span>
+              </a>
           </Link>  
-          <Link  href="/comite/bicameral">
-              <span className="font-weight-light Navbar__items">
+          <Link >
+              <a className="font-weight-light Navbar__items"  href="/comite/bicameral">
                 Crisis Bicameral
-              </span>
+              </a>
           </Link>  
-          <Link  href="/comite/security">
-              <span className="font-weight-light Navbar__items">
+          <Link >
+              <a className="font-weight-light Navbar__items"  href="/comite/security">
                 Security Council
-              </span>
+              </a>
            </Link>  
 
             </div> 
@@ -36,6 +36,7 @@ const Navbar = () => {
             .Navbar {
                 width: 100%;
                 padding: 0.5rem 0;
+                padding-left: 15px;
                 background-color: #1C3643;
               }
               
@@ -43,6 +44,7 @@ const Navbar = () => {
                 color: #ffffff;
                 display: inline-flex;
                 align-items: center;
+                text-decoration: none;
               }
               
               .Navbar__brand:hover {
@@ -64,6 +66,90 @@ const Navbar = () => {
               .Navbar__items:hover {
                 color: #ffffff;
                 text-decoration: none;
+              }
+              .container-fluid {
+                width: 100%;
+                padding-left: 15px;
+
+              }
+              .navbar > .container,
+              .navbar > .container-fluid {
+                display: -ms-flexbox;
+                display: flex;
+                -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+                -ms-flex-align: center;
+                align-items: center;
+                -ms-flex-pack: justify;
+                justify-content: space-between;
+              }
+
+              @media (max-width: 575.98px) {
+                .navbar-expand-sm > .container,
+                .navbar-expand-sm > .container-fluid {
+                  padding-right: 0;
+                  padding-left: 0;
+                }
+              }
+              .navbar-expand-sm > .container,
+              .navbar-expand-sm > .container-fluid {
+                -ms-flex-wrap: nowrap;
+                flex-wrap: nowrap;
+              }
+              @media (max-width: 767.98px) {
+                .navbar-expand-md > .container,
+                .navbar-expand-md > .container-fluid {
+                  padding-right: 0;
+                  padding-left: 0;
+                }
+              }
+              .navbar-expand-md > .container,
+              .navbar-expand-md > .container-fluid {
+                -ms-flex-wrap: nowrap;
+                flex-wrap: nowrap;
+              }
+              @media (max-width: 991.98px) {
+                .navbar-expand-lg > .container,
+                .navbar-expand-lg > .container-fluid {
+                  padding-right: 0;
+                  padding-left: 0;
+                }
+              }
+              .navbar-expand-lg > .container,
+              .navbar-expand-lg > .container-fluid {
+                -ms-flex-wrap: nowrap;
+                flex-wrap: nowrap;
+              }
+              @media (max-width: 1199.98px) {
+                .navbar-expand-xl > .container,
+                .navbar-expand-xl > .container-fluid {
+                  padding-right: 0;
+                  padding-left: 0;
+                }
+              }
+              .navbar-expand-xl > .container,
+              .navbar-expand-xl > .container-fluid {
+                -ms-flex-wrap: nowrap;
+                flex-wrap: nowrap;
+              }
+              .navbar-expand > .container,
+              .navbar-expand > .container-fluid {
+                padding-right: 0;
+                padding-left: 0;
+              }
+              .navbar-expand > .container,
+              .navbar-expand > .container-fluid {
+                -ms-flex-wrap: nowrap;
+                flex-wrap: nowrap;
+              }
+
+              .font-weight-light {
+                font-weight: 300 !important;
+
+              }
+              .font-weight-bold {
+                font-weight: 700 !important;
+
               }
         `}</style>
       </div>
