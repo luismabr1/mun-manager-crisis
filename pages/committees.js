@@ -1,5 +1,4 @@
 import Link from 'next/link';
-
 import LinkBicameral from '../components/LinkBicameral';
 import LinkSecurity from '../components/LinkSecurity';
 import LinkUnicameral from '../components/LinkUnicameral.js';
@@ -20,7 +19,7 @@ const Committees = () =>{
                   </a>
                   </Link>
       
-                  <Link ><a href="/comite/bicameral">
+                  <Link ><a href="/bicameral">
                       <LinkBicameral />
 
                   </a>
@@ -41,7 +40,7 @@ const Committees = () =>{
           .Badges__container {
             width: 100%;
             display: grid ;
-            grid-template-columns: repeat(auto-fill, minmax(520px, 1fr)); 
+            grid-template-columns: repeat(auto-fill, minmax(480px, 1fr)); 
             height: auto;
             text-align: center;
           }  

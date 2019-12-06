@@ -1,0 +1,256 @@
+{
+  "badges": [
+    {
+      "delegado": "Vito Gennovesse",
+      "comite": "Comision",
+      "clave": "comiteb",
+      "descripcion": "-3 Sicarios\n-90 Dolares en efectivo\n-Casa segura en Nueva York",
+      "asunto": "",
+      "isDirective": "0",
+      "id": 2
+    },
+    {
+      "delegado": "Charles Fischetti",
+      "comite": "Comision",
+      "clave": "comiteb",
+      "descripcion": "-2 Hombres de confianza\n-450 DOlares en efectivo\n-COmunicaciones encriptadas",
+      "asunto": "",
+      "isDirective": "0",
+      "id": 3
+    },
+    {
+      "delegado": "Gaetano Lucchese",
+      "comite": "Comision",
+      "clave": "comiteb",
+      "descripcion": "-Alijo de armas en rodhe island\n-500 DOlares en efectivo\n-3 Hombres preparados para misiones de sicariato",
+      "asunto": "",
+      "isDirective": "0",
+      "id": 4
+    },
+    {
+      "delegado": "Anthony Carfano",
+      "comite": "Comision",
+      "clave": "comiteb",
+      "descripcion": "-3 policias infiltrados en Brooklyn\n-10 Hombres recien ingresados a la mafia\n-2 pistolas de uso personal\n-250 Dolares en efectivo\n-Cuarto seguro en New York",
+      "asunto": "",
+      "isDirective": "0",
+      "id": 5
+    },
+    {
+      "delegado": "Michele Miranda",
+      "comite": "Comision",
+      "clave": "comiteb",
+      "descripcion": "-Centro de distribucion de alcohol en new york\n-contacto con proveedores y clientes de alcohol\n-350 dolares en efectivo\n-3 hombres fuertemente armados\n",
+      "asunto": "",
+      "isDirective": "0",
+      "id": 6
+    },
+    {
+      "delegado": "Stefano Maggadino",
+      "comite": "Comision",
+      "clave": "comiteb",
+      "descripcion": "-Zona de control fronterizo en canada cerca de las cataratas del niagara\n-cuartel de operaciones en buffalo\n-700 dolares en efectivo\n-5 hombres de confianza armados",
+      "asunto": "",
+      "isDirective": "0",
+      "id": 7
+    },
+    {
+      "delegado": "Frank Costello",
+      "comite": "Comision",
+      "clave": "comiteb",
+      "descripcion": "-Infiltrado en los juzgados de nueva york\n-amigo personal del asistente del alcalde\n-amigo de la mafia irlandesa\n-500 dolares en efectivo",
+      "asunto": "",
+      "isDirective": "0",
+      "id": 8
+    },
+    {
+      "delegado": "Carlos Marcello",
+      "comite": "Comision",
+      "clave": "comiteb",
+      "descripcion": "- 1160$\n-Dos infromantes dentro de la policia de New york\n-contacto con la prsion de Luisiana\n-Un asistente y guardaespaldas de confianza\n- 2 Tragaperras que producen 40$ al dia",
+      "asunto": "",
+      "isDirective": "0",
+      "id": 9
+    },
+    {
+      "delegado": "Sam Giancana",
+      "comite": "Comision",
+      "clave": "comiteb",
+      "descripcion": "- apoyo y contacto con la Banda de los 42\n-Auto Deportivo Ultimo Modelo \n-  Pistol Tommy Gun, de uso personal \n-450$ en efectivo \n-encriptado de comunicaciones",
+      "asunto": "",
+      "isDirective": "0",
+      "id": 10
+    },
+    {
+      "delegado": "Joe Adonis",
+      "comite": "Comision",
+      "clave": "comiteb",
+      "descripcion": "- 3 hombres armandos de tu confianza\n-600$ en efectivo \n1 Tommy Gun de uso personal \n-Una casa segura en New York",
+      "asunto": "",
+      "isDirective": "0",
+      "id": 11
+    },
+    {
+      "delegado": "Joseph Magglico",
+      "comite": "Comision",
+      "clave": "comiteb",
+      "descripcion": "-5 Hombres fuertemente armandos.\n-Casa segura en Brooklin \n-Contrabando de alcohol (Ingresos de 100$ mesual)\n-330$ en efectivo \n-Una pistola calibre 38",
+      "asunto": "",
+      "isDirective": "0",
+      "id": 12
+    },
+    {
+      "delegado": "Clarence Hurt",
+      "comite": "BOI",
+      "clave": "comitec",
+      "descripcion": "- Armamento especial de la Agencia\n- Un subfusil de asalto Thompson de uso personal\n- Informante en Chicago y Nueva York (A Sueldo)\n- 74$ en efectivo",
+      "asunto": "",
+      "isDirective": "0",
+      "id": 13
+    },
+    {
+      "delegado": "Dell Jelly Bryce",
+      "comite": "BOI",
+      "clave": "comitec",
+      "descripcion": "- Informante proveniente del Buró\n- 125$ en efectivo y cuenta bancaria\n- Una pistola\n- 2 Rifles de caza",
+      "asunto": "",
+      "isDirective": "0",
+      "id": 14
+    },
+    {
+      "delegado": "Earl J. Conelly",
+      "comite": "BOI",
+      "clave": "comitec",
+      "descripcion": "- .38 S&W Special\n- Jurisdiccion para realizar investigaciones encubierto\n- 84$ en efectivo\n- Puede interrogar testigos\n- Infiltrado dentro de la Mafia Italiana\n- Puede establecer contacto con los departamentos de policia de Chicago",
+      "asunto": "",
+      "isDirective": "0",
+      "id": 15
+    },
+    {
+      "delegado": "George F. Hurley",
+      "comite": "BOI",
+      "clave": "comitec",
+      "descripcion": "- Pistola asignada por la agencia y munición\n- Jurisdiccion para realizar investigaciones encubierto\n- 100$ en efectivo\n- Puedes involucrarte en las redadas y operaciones de choque\n- Puedes establecer contacto con los departamentos de policia de NY\n-iniciado contacto con el presidente del congreso\n-encriptado",
+      "asunto": "",
+      "isDirective": "0",
+      "id": 16
+    },
+    {
+      "delegado": "George H. Franklin",
+      "comite": "BOI",
+      "clave": "comitec",
+      "descripcion": "- Equipo asignado por la agencia (Pistola, Placa y Munición)\n- Posees 172$ en una cuenta bancaria\n- Puedes interrogar testigos del caso\n- puedes establecer cntacto con los departamentos de policia\n- Tienes contactos \n-ENviado intento de contacto con Sam Bratton  en el senado",
+      "asunto": "",
+      "isDirective": "0",
+      "id": 17
+    },
+    {
+      "delegado": "Harold Reinecke",
+      "comite": "BOI",
+      "clave": "comitec",
+      "descripcion": "$60 efectivo\n$85 banco\nPistola y placa\n1 agente secreto detroit y uno indianapolis\n-intencion de red nacional de espionaje",
+      "asunto": "",
+      "isDirective": "0",
+      "id": 18
+    },
+    {
+      "delegado": "Hugh Drene Lester",
+      "comite": "BOI",
+      "clave": "",
+      "descripcion": "$60 efectivo\n$90 banco\nEquipo estandar\nInformación del buró\n1 infiltrado ",
+      "asunto": "",
+      "isDirective": "0",
+      "id": 19
+    },
+    {
+      "delegado": "Walter Drane Lester",
+      "comite": "BOI",
+      "clave": "comitec",
+      "descripcion": "-60 dolares en efectivo y 90 en cuenta bancaria\n-chaleco antibalas-\npistola smith and Wesson modelo 10 de calibre 38 con el uso exclusivo para su proteccion\n-informacion directa del buro\n- 1 infiltrados en la mafia italiana",
+      "asunto": "",
+      "isDirective": "0",
+      "id": 20
+    },
+    {
+      "delegado": "Hugh Clegg",
+      "comite": "BOI",
+      "clave": "comitec",
+      "descripcion": "-.38 colt police special\n-opinion de peso acerca de conducta criminal y posibles formas de captura\n-cuenta con 130 dolares\n-puedes interrogar a testigos del caso\n-infiltrados en new york y chicago\n-acciones en 6 empresas automovilisticas y de ebergía\n-encriptado\n-4 guarda espaldas para protegerlo a el y su familia\n-sospecha de Earl Connely",
+      "asunto": "",
+      "isDirective": "0",
+      "id": 21
+    },
+    {
+      "delegado": "James C. \"Doc\" White",
+      "comite": "BOI",
+      "clave": "comitec",
+      "descripcion": "-Rifke modelo 30.06\n-Fusil Thompson \n- 3 agentes para espionaje y saboteo\n-chaleco \n-mensualidad 0$\n-peluqueria con sotano de almacenaje de armas\n- debe 1000$ y necesita pagar antes de hacer alguna otra compra",
+      "asunto": "",
+      "isDirective": "0",
+      "id": 22
+    },
+    {
+      "delegado": "Kelly Dent Deaderick",
+      "comite": "BOI",
+      "clave": "comitec",
+      "descripcion": "-Equipo especial de agente\n-Cuenta con 112 dolares en cuenta bancaria de new york\n-puede interrogar a testigos\n-Tienes un informantes dentro de las cortes de new york y washington\npuedes moverte libremente entre las juridicciones policiales de washington ",
+      "asunto": "",
+      "isDirective": "0",
+      "id": 23
+    },
+    {
+      "delegado": "Melvin H Purvis",
+      "comite": "BOI",
+      "clave": "comitec",
+      "descripcion": "-sala de interrogatorio en chicago\n-95 dolares en efectivo\n-un informante a sueldo en chicago\n- pistola y municion de la agencia",
+      "asunto": "",
+      "isDirective": "0",
+      "id": 24
+    },
+    {
+      "delegado": "Norman H. McCabe",
+      "comite": "BOI",
+      "clave": "comitec",
+      "descripcion": "-Dispones de acceso directo y completo al archivo general del buro para realizar investigaciones pertinentes\n-cuenta con 110 dolares\n-agente secreto y un informante en albuquerque\n- fusil thompson\n- encriptadas las comunicaciones",
+      "asunto": "",
+      "isDirective": "0",
+      "id": 25
+    },
+    {
+      "delegado": "Percy Wyly",
+      "comite": "BOI",
+      "clave": "comitec",
+      "descripcion": "-puedes moverte libremente por las juridicciones policiales de Nuevo mexico y san diego y dallas\n- Cuenta con una estacion de radioclave en la creciente red del buro ubicada en san diego\n- Equipo de agente especial\n- Posee 130 dolares en cuenta bancaria en new orleans\n-protegido con el KKK",
+      "asunto": "",
+      "isDirective": "0",
+      "id": 26
+    },
+    {
+      "delegado": "Samuel P. Cowley",
+      "comite": "BOI",
+      "clave": "comitec",
+      "descripcion": "-Sala de interrogatorio en new york\n- dos informantes en la costa este, dos en la costa oeste y uno en chicago\n- pistola y municion de agencia\n-34 dolares en efectivo y 25 en el banco",
+      "asunto": "",
+      "isDirective": "0",
+      "id": 27
+    },
+    {
+      "delegado": "Thomas Franklin Baugman",
+      "comite": "BOI",
+      "clave": "comitec",
+      "descripcion": "-informacion clasificada de la agencia\n-enlaces politicos con ramas del poder judicial\n-equipamento estandar de la agencia\n-3 pistolas y 4 rifles de uso personal\n-encriptadas las comunicaciones con enigma",
+      "asunto": "",
+      "isDirective": "0",
+      "id": 28
+    },
+    {
+      "delegado": "Guarinno Moretti",
+      "comite": "Comision",
+      "clave": "comiteb",
+      "descripcion": "- Investigador \n- 300$ efectivo",
+      "asunto": "",
+      "isDirective": "0",
+      "id": 29
+    }
+  ]
+}

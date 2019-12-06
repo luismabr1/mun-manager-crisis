@@ -1,9 +1,12 @@
 
 import Layout from '../components/Layout';
 import Committees from './committees';
+import api from './api/api';
 
 
-const Home = () => {
+const Home = (props) => {
+
+
     return ( 
         <Layout>
 
@@ -20,5 +23,7 @@ const Home = () => {
 
      );
 }
+
+
  
 export default Home;

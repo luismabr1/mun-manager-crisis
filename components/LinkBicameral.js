@@ -15,7 +15,7 @@ class CommitteesList extends React.Component {
 
       <style>{`
             .Bicameral__face{
-                width: 90%;
+                width: 100%;
                 position: relative; 
               }
               

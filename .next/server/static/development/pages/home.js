@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 6);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -242,7 +242,7 @@ class CommitteesList extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Compon
       __self: this
     }, `
             .Bicameral__face{
-                width: 90%;
+                width: 100%;
                 position: relative; 
               }
               
@@ -511,9 +511,9 @@ class CommitteesList extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Compon
       -moz-border-radius: 10px;
       border-radius: 10px;
       display:block;
+      width:100%;
       margin-left: auto;
       margin-right: auto;
-      width: 90%;   
       transform:scale(1);
       -ms-transform:scale(1); 
       -moz-transform:scale(1); 
@@ -813,6 +813,17 @@ const Navbar = () => {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Navbar);
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js":
+/*!***********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js ***!
+  \***********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/json/stringify */ "core-js/library/fn/json/stringify");
 
 /***/ }),
 
@@ -2551,6 +2562,75 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 
 /***/ }),
 
+/***/ "./pages/api/api.js":
+/*!**************************!*\
+  !*** ./pages/api/api.js ***!
+  \**************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/json/stringify */ "./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0__);
+
+const BASE_URL = 'http://localhost:3011/api';
+/* const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
+const randomNumber = (min = 0, max = 1) =>
+  Math.floor(Math.random() * (max - min + 1)) + min;
+const simulateNetworkLatency = (min = 30, max = 1500) =>
+  delay(randomNumber(min, max)); */
+
+async function callApi(endpoint, options = {}) {
+  await simulateNetworkLatency();
+  options.headers = {
+    'Content-Type': 'application/json',
+    Accept: 'application/json'
+  };
+  const url = BASE_URL + endpoint;
+  const response = await fetch(url, options);
+  const data = await response.json();
+  return data;
+}
+
+const api = {
+  badges: {
+    list() {
+      return callApi('/badges');
+    },
+
+    create(badge) {
+      // throw new Error('500: Server error');
+      return callApi(`/badges`, {
+        method: 'POST',
+        body: _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0___default()(badge)
+      });
+    },
+
+    read(badgeId) {
+      return callApi(`/badges/${badgeId}`);
+    },
+
+    update(badgeId, updates) {
+      return callApi(`/badges/${badgeId}`, {
+        method: 'PUT',
+        body: _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0___default()(updates)
+      });
+    },
+
+    // Lo hubiera llamado `delete`, pero `delete` es un keyword en JavaScript asi que no es buena idea :P
+    remove(badgeId) {
+      return callApi(`/badges/${badgeId}`, {
+        method: 'DELETE'
+      });
+    }
+
+  }
+};
+/* harmony default export */ __webpack_exports__["default"] = (api);
+
+/***/ }),
+
 /***/ "./pages/committees.js":
 /*!*****************************!*\
   !*** ./pages/committees.js ***!
@@ -2582,94 +2662,94 @@ const Committees = () => {
   return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 11
     },
     __self: undefined
   }, __jsx("div", {
-    className: "jsx-1349834467" + " " + "container",
+    className: "jsx-3184723951" + " " + "container",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: undefined
+  }, __jsx("h1", {
+    className: "jsx-3184723951",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
     },
     __self: undefined
-  }, __jsx("h1", {
-    className: "jsx-1349834467",
+  }, "Comites disponibles"), __jsx("div", {
+    className: "jsx-3184723951" + " " + "Badges__container",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14
     },
     __self: undefined
-  }, "Comites disponibles"), __jsx("div", {
-    className: "jsx-1349834467" + " " + "Badges__container",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: undefined
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 17
     },
     __self: undefined
   }, __jsx("a", {
     href: "/comite/unicameral",
-    className: "jsx-1349834467",
+    className: "jsx-3184723951",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 17
     },
     __self: undefined
   }, __jsx(_components_LinkUnicameral_js__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 18
     },
     __self: undefined
   }))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 22
     },
     __self: undefined
   }, __jsx("a", {
-    href: "/comite/bicameral",
-    className: "jsx-1349834467",
+    href: "/bicameral",
+    className: "jsx-3184723951",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 22
     },
     __self: undefined
   }, __jsx(_components_LinkBicameral__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 23
     },
     __self: undefined
   }))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 28
     },
     __self: undefined
   }, __jsx("a", {
     href: "/comite/security",
-    className: "jsx-1349834467",
+    className: "jsx-3184723951",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 28
     },
     __self: undefined
   }, __jsx(_components_LinkSecurity__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 29
     },
     __self: undefined
   })))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "1349834467",
+    id: "3184723951",
     __self: undefined
-  }, ".container.jsx-1349834467 h1.jsx-1349834467{text-align:center;}.Badges__container.jsx-1349834467{width:100%;display:grid;grid-template-columns:repeat(auto-fill,minmax(520px,1fr));height:auto;text-align:center;}.Badges_conf-logo.jsx-1349834467{margin-bottom:2rem;width:260px;}a.jsx-1349834467{width:100%;-webkit-text-decoration:none;text-decoration:none;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcbGJyaXRvXFxEcm9wYm94XFxEZXNhcnJvbGxvc1xcTW92ZW51IFZlcnNpb24gMjAxOVxccGFnZXNcXGNvbW1pdHRlZXMuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBbUNvQixBQUkrQixBQUdQLEFBU1EsQUFNUixXQWRHLEFBZU8sT0FsQnZCLENBWWMsS0FSZ0QsT0FTOUQsOEJBTUEscUJBZGMsWUFDTSxrQkFDcEIiLCJmaWxlIjoiQzpcXFVzZXJzXFxsYnJpdG9cXERyb3Bib3hcXERlc2Fycm9sbG9zXFxNb3ZlbnUgVmVyc2lvbiAyMDE5XFxwYWdlc1xcY29tbWl0dGVlcy5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMaW5rIGZyb20gJ25leHQvbGluayc7XHJcblxyXG5pbXBvcnQgTGlua0JpY2FtZXJhbCBmcm9tICcuLi9jb21wb25lbnRzL0xpbmtCaWNhbWVyYWwnO1xyXG5pbXBvcnQgTGlua1NlY3VyaXR5IGZyb20gJy4uL2NvbXBvbmVudHMvTGlua1NlY3VyaXR5JztcclxuaW1wb3J0IExpbmtVbmljYW1lcmFsIGZyb20gJy4uL2NvbXBvbmVudHMvTGlua1VuaWNhbWVyYWwuanMnO1xyXG5cclxuXHJcblxyXG5jb25zdCBDb21taXR0ZWVzID0gKCkgPT57XHJcbiAgICAgICAgcmV0dXJuIChcclxuXHJcbiAgICAgPFJlYWN0LkZyYWdtZW50PlxyXG4gICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb250YWluZXJcIj5cclxuICAgICAgICAgIDxoMT5Db21pdGVzIGRpc3BvbmlibGVzPC9oMT5cclxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiQmFkZ2VzX19jb250YWluZXJcIj5cclxuICAgICAgICAgICAgXHJcblxyXG4gICAgICAgICAgICAgICAgICA8TGluayA+PGEgaHJlZj1cIi9jb21pdGUvdW5pY2FtZXJhbFwiPlxyXG4gICAgICAgICAgICAgICAgICAgICAgPExpbmtVbmljYW1lcmFsIC8+XHJcbiAgICAgICAgICAgICAgICAgIDwvYT5cclxuICAgICAgICAgICAgICAgICAgPC9MaW5rPlxyXG4gICAgICBcclxuICAgICAgICAgICAgICAgICAgPExpbmsgPjxhIGhyZWY9XCIvY29taXRlL2JpY2FtZXJhbFwiPlxyXG4gICAgICAgICAgICAgICAgICAgICAgPExpbmtCaWNhbWVyYWwgLz5cclxuXHJcbiAgICAgICAgICAgICAgICAgIDwvYT5cclxuICAgICAgICAgICAgICAgICAgPC9MaW5rPlxyXG4gICAgICBcclxuICAgICAgICAgICAgICAgICAgPExpbms+PGEgaHJlZj1cIi9jb21pdGUvc2VjdXJpdHlcIj5cclxuICAgICAgICAgICAgICAgICAgICAgIDxMaW5rU2VjdXJpdHkgLz5cclxuICAgICAgICAgICAgICAgICAgICA8L2E+ICAgIFxyXG4gICAgICAgICAgICAgICAgICA8L0xpbms+XHJcbiAgICAgICAgICAgIDwvZGl2PlxyXG4gXHJcblxyXG4gICAgICAgIDxzdHlsZSBqc3g+e2AgIFxyXG4gICAgICAgIFxyXG4gICAgICAgICAgLmNvbnRhaW5lciBoMXtcclxuICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgICAgICAgfVxyXG4gICAgICAgICAgLkJhZGdlc19fY29udGFpbmVyIHtcclxuICAgICAgICAgICAgd2lkdGg6IDEwMCU7XHJcbiAgICAgICAgICAgIGRpc3BsYXk6IGdyaWQgO1xyXG4gICAgICAgICAgICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IHJlcGVhdChhdXRvLWZpbGwsIG1pbm1heCg1MjBweCwgMWZyKSk7IFxyXG4gICAgICAgICAgICBoZWlnaHQ6IGF1dG87XHJcbiAgICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgICAgICAgIH0gIFxyXG4gICAgICAgICAgXHJcbiAgICAgICAgICBcclxuICAgICAgICAgIC5CYWRnZXNfY29uZi1sb2dvIHtcclxuICAgICAgICAgICAgbWFyZ2luLWJvdHRvbTogMnJlbTtcclxuICAgICAgICAgICAgd2lkdGg6IDI2MHB4O1xyXG4gICAgICAgICAgfVxyXG5cclxuICAgICAgICAgIFxyXG4gICAgICAgICAgIGEge1xyXG4gICAgICAgICAgICB3aWR0aDogMTAwJTtcclxuICAgICAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xyXG4gICAgICAgICAgfVxyXG4gICAgICAgICAgXHJcblxyXG4gICAgICAgIGB9PC9zdHlsZT5cclxuICAgICAgPC9kaXY+XHJcbiAgICAgICA8L1JlYWN0LkZyYWdtZW50PiBcclxuICAgICAgICApXHJcblxyXG4gICB9ICAgXHJcblxyXG4gXHJcbiBcclxuIGV4cG9ydCBkZWZhdWx0IENvbW1pdHRlZXM7Il19 */\n/*@ sourceURL=C:\\\\Users\\\\lbrito\\\\Dropbox\\\\Desarrollos\\\\Movenu Version 2019\\\\pages\\\\committees.js */")));
+  }, ".container.jsx-3184723951 h1.jsx-3184723951{text-align:center;}.Badges__container.jsx-3184723951{width:100%;display:grid;grid-template-columns:repeat(auto-fill,minmax(480px,1fr));height:auto;text-align:center;}.Badges_conf-logo.jsx-3184723951{margin-bottom:2rem;width:260px;}a.jsx-3184723951{width:100%;-webkit-text-decoration:none;text-decoration:none;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcbGJyaXRvXFxEcm9wYm94XFxEZXNhcnJvbGxvc1xcTW92ZW51IFZlcnNpb24gMjAxOVxccGFnZXNcXGNvbW1pdHRlZXMuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBa0NvQixBQUkrQixBQUdQLEFBU1EsQUFNUixXQWRHLEFBZU8sT0FsQnZCLENBWWMsS0FSZ0QsT0FTOUQsOEJBTUEscUJBZGMsWUFDTSxrQkFDcEIiLCJmaWxlIjoiQzpcXFVzZXJzXFxsYnJpdG9cXERyb3Bib3hcXERlc2Fycm9sbG9zXFxNb3ZlbnUgVmVyc2lvbiAyMDE5XFxwYWdlc1xcY29tbWl0dGVlcy5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMaW5rIGZyb20gJ25leHQvbGluayc7XHJcbmltcG9ydCBMaW5rQmljYW1lcmFsIGZyb20gJy4uL2NvbXBvbmVudHMvTGlua0JpY2FtZXJhbCc7XHJcbmltcG9ydCBMaW5rU2VjdXJpdHkgZnJvbSAnLi4vY29tcG9uZW50cy9MaW5rU2VjdXJpdHknO1xyXG5pbXBvcnQgTGlua1VuaWNhbWVyYWwgZnJvbSAnLi4vY29tcG9uZW50cy9MaW5rVW5pY2FtZXJhbC5qcyc7XHJcblxyXG5cclxuXHJcbmNvbnN0IENvbW1pdHRlZXMgPSAoKSA9PntcclxuICAgICAgICByZXR1cm4gKFxyXG5cclxuICAgICA8UmVhY3QuRnJhZ21lbnQ+XHJcbiAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbnRhaW5lclwiPlxyXG4gICAgICAgICAgPGgxPkNvbWl0ZXMgZGlzcG9uaWJsZXM8L2gxPlxyXG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJCYWRnZXNfX2NvbnRhaW5lclwiPlxyXG4gICAgICAgICAgICBcclxuXHJcbiAgICAgICAgICAgICAgICAgIDxMaW5rID48YSBocmVmPVwiL2NvbWl0ZS91bmljYW1lcmFsXCI+XHJcbiAgICAgICAgICAgICAgICAgICAgICA8TGlua1VuaWNhbWVyYWwgLz5cclxuICAgICAgICAgICAgICAgICAgPC9hPlxyXG4gICAgICAgICAgICAgICAgICA8L0xpbms+XHJcbiAgICAgIFxyXG4gICAgICAgICAgICAgICAgICA8TGluayA+PGEgaHJlZj1cIi9iaWNhbWVyYWxcIj5cclxuICAgICAgICAgICAgICAgICAgICAgIDxMaW5rQmljYW1lcmFsIC8+XHJcblxyXG4gICAgICAgICAgICAgICAgICA8L2E+XHJcbiAgICAgICAgICAgICAgICAgIDwvTGluaz5cclxuICAgICAgXHJcbiAgICAgICAgICAgICAgICAgIDxMaW5rPjxhIGhyZWY9XCIvY29taXRlL3NlY3VyaXR5XCI+XHJcbiAgICAgICAgICAgICAgICAgICAgICA8TGlua1NlY3VyaXR5IC8+XHJcbiAgICAgICAgICAgICAgICAgICAgPC9hPiAgICBcclxuICAgICAgICAgICAgICAgICAgPC9MaW5rPlxyXG4gICAgICAgICAgICA8L2Rpdj5cclxuIFxyXG5cclxuICAgICAgICA8c3R5bGUganN4PntgICBcclxuICAgICAgICBcclxuICAgICAgICAgIC5jb250YWluZXIgaDF7XHJcbiAgICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgICAgICAgIH1cclxuICAgICAgICAgIC5CYWRnZXNfX2NvbnRhaW5lciB7XHJcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgICAgICAgICBkaXNwbGF5OiBncmlkIDtcclxuICAgICAgICAgICAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiByZXBlYXQoYXV0by1maWxsLCBtaW5tYXgoNDgwcHgsIDFmcikpOyBcclxuICAgICAgICAgICAgaGVpZ2h0OiBhdXRvO1xyXG4gICAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICAgICAgICB9ICBcclxuICAgICAgICAgIFxyXG4gICAgICAgICAgXHJcbiAgICAgICAgICAuQmFkZ2VzX2NvbmYtbG9nbyB7XHJcbiAgICAgICAgICAgIG1hcmdpbi1ib3R0b206IDJyZW07XHJcbiAgICAgICAgICAgIHdpZHRoOiAyNjBweDtcclxuICAgICAgICAgIH1cclxuXHJcbiAgICAgICAgICBcclxuICAgICAgICAgICBhIHtcclxuICAgICAgICAgICAgd2lkdGg6IDEwMCU7XHJcbiAgICAgICAgICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcclxuICAgICAgICAgIH1cclxuICAgICAgICAgIFxyXG5cclxuICAgICAgICBgfTwvc3R5bGU+XHJcbiAgICAgIDwvZGl2PlxyXG4gICAgICAgPC9SZWFjdC5GcmFnbWVudD4gXHJcbiAgICAgICAgKVxyXG5cclxuICAgfSAgIFxyXG5cclxuIFxyXG4gXHJcbiBleHBvcnQgZGVmYXVsdCBDb21taXR0ZWVzOyJdfQ== */\n/*@ sourceURL=C:\\\\Users\\\\lbrito\\\\Dropbox\\\\Desarrollos\\\\Movenu Version 2019\\\\pages\\\\committees.js */")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Committees);
@@ -2691,6 +2771,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
 /* harmony import */ var _committees__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./committees */ "./pages/committees.js");
+/* harmony import */ var _api_api__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./api/api */ "./pages/api/api.js");
 var _jsxFileName = "C:\\Users\\lbrito\\Dropbox\\Desarrollos\\Movenu Version 2019\\pages\\home.js";
 
 
@@ -2698,23 +2779,24 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
 
-const Home = () => {
+
+const Home = props => {
   return __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 11
     },
     __self: undefined
   }, __jsx(_committees__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 13
     },
     __self: undefined
   }), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "3234240700",
     __self: undefined
-  }, "body{margin:0;overflow:hidden;font-family:system-ui;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcbGJyaXRvXFxEcm9wYm94XFxEZXNhcnJvbGxvc1xcTW92ZW51IFZlcnNpb24gMjAxOVxccGFnZXNcXGhvbWUuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBVytCLEFBRzhCLFNBQ00sZ0JBQ08sc0JBQzFCIiwiZmlsZSI6IkM6XFxVc2Vyc1xcbGJyaXRvXFxEcm9wYm94XFxEZXNhcnJvbGxvc1xcTW92ZW51IFZlcnNpb24gMjAxOVxccGFnZXNcXGhvbWUuanMiLCJzb3VyY2VzQ29udGVudCI6WyJcclxuaW1wb3J0IExheW91dCBmcm9tICcuLi9jb21wb25lbnRzL0xheW91dCc7XHJcbmltcG9ydCBDb21taXR0ZWVzIGZyb20gJy4vY29tbWl0dGVlcyc7XHJcblxyXG5cclxuY29uc3QgSG9tZSA9ICgpID0+IHtcclxuICAgIHJldHVybiAoIFxyXG4gICAgICAgIDxMYXlvdXQ+XHJcblxyXG4gICAgICAgICAgICA8Q29tbWl0dGVlcyAvPlxyXG5cclxuICAgICAgICAgICAgPHN0eWxlIGpzeCBnbG9iYWw+e2BcclxuICAgICAgICAgICAgICAgIGJvZHkge1xyXG4gICAgICAgICAgICAgICAgICAgIG1hcmdpbjogMDtcclxuICAgICAgICAgICAgICAgICAgICBvdmVyZmxvdzpoaWRkZW47XHJcbiAgICAgICAgICAgICAgICAgICAgZm9udC1mYW1pbHk6IHN5c3RlbS11aTtcclxuICAgICAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgYH08L3N0eWxlPlxyXG4gICAgICAgIDwvTGF5b3V0PlxyXG5cclxuICAgICApO1xyXG59XHJcbiBcclxuZXhwb3J0IGRlZmF1bHQgSG9tZTsiXX0= */\n/*@ sourceURL=C:\\\\Users\\\\lbrito\\\\Dropbox\\\\Desarrollos\\\\Movenu Version 2019\\\\pages\\\\home.js */"));
+  }, "body{margin:0;overflow:hidden;font-family:system-ui;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcbGJyaXRvXFxEcm9wYm94XFxEZXNhcnJvbGxvc1xcTW92ZW51IFZlcnNpb24gMjAxOVxccGFnZXNcXGhvbWUuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBYytCLEFBRzhCLFNBQ00sZ0JBQ08sc0JBQzFCIiwiZmlsZSI6IkM6XFxVc2Vyc1xcbGJyaXRvXFxEcm9wYm94XFxEZXNhcnJvbGxvc1xcTW92ZW51IFZlcnNpb24gMjAxOVxccGFnZXNcXGhvbWUuanMiLCJzb3VyY2VzQ29udGVudCI6WyJcclxuaW1wb3J0IExheW91dCBmcm9tICcuLi9jb21wb25lbnRzL0xheW91dCc7XHJcbmltcG9ydCBDb21taXR0ZWVzIGZyb20gJy4vY29tbWl0dGVlcyc7XHJcbmltcG9ydCBhcGkgZnJvbSAnLi9hcGkvYXBpJztcclxuXHJcblxyXG5jb25zdCBIb21lID0gKHByb3BzKSA9PiB7XHJcblxyXG5cclxuICAgIHJldHVybiAoIFxyXG4gICAgICAgIDxMYXlvdXQ+XHJcblxyXG4gICAgICAgICAgICA8Q29tbWl0dGVlcyAvPlxyXG5cclxuICAgICAgICAgICAgPHN0eWxlIGpzeCBnbG9iYWw+e2BcclxuICAgICAgICAgICAgICAgIGJvZHkge1xyXG4gICAgICAgICAgICAgICAgICAgIG1hcmdpbjogMDtcclxuICAgICAgICAgICAgICAgICAgICBvdmVyZmxvdzpoaWRkZW47XHJcbiAgICAgICAgICAgICAgICAgICAgZm9udC1mYW1pbHk6IHN5c3RlbS11aTtcclxuICAgICAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgYH08L3N0eWxlPlxyXG4gICAgICAgIDwvTGF5b3V0PlxyXG5cclxuICAgICApO1xyXG59XHJcblxyXG5cclxuIFxyXG5leHBvcnQgZGVmYXVsdCBIb21lOyJdfQ== */\n/*@ sourceURL=C:\\\\Users\\\\lbrito\\\\Dropbox\\\\Desarrollos\\\\Movenu Version 2019\\\\pages\\\\home.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Home);
@@ -2776,7 +2858,7 @@ module.exports = "/_next/static/images/mafia-a8493c2568dd1ff09294b23ca1d3e01c.jp
 
 /***/ }),
 
-/***/ 3:
+/***/ 6:
 /*!*****************************!*\
   !*** multi ./pages/home.js ***!
   \*****************************/
@@ -2785,6 +2867,17 @@ module.exports = "/_next/static/images/mafia-a8493c2568dd1ff09294b23ca1d3e01c.jp
 
 module.exports = __webpack_require__(/*! C:\Users\lbrito\Dropbox\Desarrollos\Movenu Version 2019\pages\home.js */"./pages/home.js");
 
+
+/***/ }),
+
+/***/ "core-js/library/fn/json/stringify":
+/*!****************************************************!*\
+  !*** external "core-js/library/fn/json/stringify" ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/library/fn/json/stringify");
 
 /***/ }),
 

@@ -30,9 +30,9 @@ class CommitteesList extends React.Component {
       -moz-border-radius: 10px;
       border-radius: 10px;
       display:block;
+      width:100%;
       margin-left: auto;
       margin-right: auto;
-      width: 90%;   
       transform:scale(1);
       -ms-transform:scale(1); 
       -moz-transform:scale(1); 
