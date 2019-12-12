@@ -114,7 +114,7 @@ function BadgesList(props) {
                 <li key={badge.id}>
                   <Link
                     className="text-reset text-decoration-none"
-                    to={`/comite/bicameral/${badge.id}`}
+                    route={`/bicameral/${badge.id}`}
                   >
                     <BadgesListItem badge={badge} />
                   </Link>
@@ -131,6 +131,12 @@ function BadgesList(props) {
             border-radius: 5px;
             display: flex;
             padding: 1rem;
+            cursor: pointer;
+            -webkit-transition: width 2s; /* Safari prior 6.1 */
+            transition: 600ms;
+          }
+          .BadgesListItem:hover{
+            transform: scale(1.1);
           }
           
           .BadgesListItem__avatar {
@@ -143,6 +149,7 @@ function BadgesList(props) {
             .list-unstyled {
                 padding-left: 0;
                 list-style: none;
+
               }
 
               .text-reset {

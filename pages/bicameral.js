@@ -4,7 +4,6 @@ import confLogo from '../static/LOGO-MOVENU-BLANCO.png';
 import BicameralList from '../components/BicameralList';
 import BicameralListTwo from '../components/BicameralListTwo';
 import PageLoading from '../components/PageLoading';
-import PageError from '../components/PageError';
 import MiniLoader from '../components/MiniLoader';
 import Layout from '../components/Layout';
 

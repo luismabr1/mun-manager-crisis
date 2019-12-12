@@ -179,7 +179,7 @@ var Navbar = function Navbar() {
     __self: this
   }, __jsx("a", {
     className: "font-weight-light Navbar__items",
-    href: "/comite/bicameral",
+    href: "/bicameral",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22
@@ -193,7 +193,7 @@ var Navbar = function Navbar() {
     __self: this
   }, __jsx("a", {
     className: "font-weight-light Navbar__items",
-    href: "/comite/security",
+    href: "/security",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 27
@@ -2269,21 +2269,21 @@ var Error = function Error(props) {
     },
     __self: this
   }, statusCode === 404 ? __jsx("div", {
-    className: "jsx-1949451712" + " " + "message",
+    className: "jsx-2339331309" + " " + "message",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
   }, __jsx("h1", {
-    className: "jsx-1949451712",
+    className: "jsx-2339331309",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
   }, "Esta p\xE1gina no existe :("), __jsx("p", {
-    className: "jsx-1949451712",
+    className: "jsx-2339331309",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
@@ -2297,28 +2297,28 @@ var Error = function Error(props) {
     },
     __self: this
   }, __jsx("a", {
-    className: "jsx-1949451712",
+    className: "jsx-2339331309",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
   }, "Volver a la home")))) : __jsx("div", {
-    className: "jsx-1949451712" + " " + "message",
+    className: "jsx-2339331309" + " " + "message",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14
     },
     __self: this
   }, __jsx("h1", {
-    className: "jsx-1949451712",
+    className: "jsx-2339331309",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
     },
     __self: this
   }, "Hubo un problema :("), __jsx("p", {
-    className: "jsx-1949451712",
+    className: "jsx-2339331309",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
@@ -2327,7 +2327,10 @@ var Error = function Error(props) {
   }, "Intenta nuevamente en unos segundos")), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_2___default.a, {
     id: "1949451712",
     __self: this
-  }, ".message.jsx-1949451712{padding:100px 30px;text-align:center;}h1.jsx-1949451712{margin-bottom:2em;}a.jsx-1949451712{color:#8756ca;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcbGJyaXRvXFxEcm9wYm94XFxEZXNhcnJvbGxvc1xcTW92ZW51IFZlcnNpb24gMjAxOVxccGFnZXNcXF9lcnJvci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFrQnFCLEFBR2dDLEFBSUQsQUFHSixjQUNoQixJQUhBLENBSm9CLGtCQUNwQiIsImZpbGUiOiJDOlxcVXNlcnNcXGxicml0b1xcRHJvcGJveFxcRGVzYXJyb2xsb3NcXE1vdmVudSBWZXJzaW9uIDIwMTlcXHBhZ2VzXFxfZXJyb3IuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTGF5b3V0IGZyb20gXCIuLi9jb21wb25lbnRzL0xheW91dFwiO1xyXG5pbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnO1xyXG5cclxuY29uc3QgRXJyb3IgPSAocHJvcHMpID0+IHtcclxuICAgIGNvbnN0IHN0YXR1c0NvZGUgPSBwcm9wcy5zdGF0dXNDb2RlO1xyXG4gICAgcmV0dXJuICggXHJcbiAgICAgICAgPExheW91dCB0aXRsZT1cIk9oIG5vIDooXCI+XHJcbiAgICAgICAgeyBzdGF0dXNDb2RlID09PSA0MDQgP1xyXG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJtZXNzYWdlXCI+XHJcbiAgICAgICAgICAgIDxoMT5Fc3RhIHDDoWdpbmEgbm8gZXhpc3RlIDooPC9oMT5cclxuICAgICAgICAgICAgPHA+PExpbmsgaHJlZj1cIi9cIj48YT5Wb2x2ZXIgYSBsYSBob21lPC9hPjwvTGluaz48L3A+XHJcbiAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgIDpcclxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibWVzc2FnZVwiPlxyXG4gICAgICAgICAgICA8aDE+SHVibyB1biBwcm9ibGVtYSA6KDwvaDE+XHJcbiAgICAgICAgICAgIDxwPkludGVudGEgbnVldmFtZW50ZSBlbiB1bm9zIHNlZ3VuZG9zPC9wPlxyXG4gICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgIH1cclxuICAgICAgICAgPHN0eWxlIGpzeD57YFxyXG4gICAgICAgICAgLm1lc3NhZ2Uge1xyXG4gICAgICAgICAgICBwYWRkaW5nOiAxMDBweCAzMHB4O1xyXG4gICAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICAgICAgICB9XHJcbiAgICAgICAgICBoMSB7XHJcbiAgICAgICAgICAgIG1hcmdpbi1ib3R0b206IDJlbTtcclxuICAgICAgICAgIH1cclxuICAgICAgICAgIGEge1xyXG4gICAgICAgICAgICBjb2xvcjogIzg3NTZjYTtcclxuICAgICAgICAgIH1cclxuICAgICAgICAgYH08L3N0eWxlPlxyXG4gICAgICA8L0xheW91dD5cclxuICAgICApXHJcbiAgIH1cclxuICAgICAgICBFcnJvci5nZXRJbml0aWFsUHJvcHMgPSBhc3luYyAoe3JlcywgZXJyfSkgPT57XHJcbiAgICAgICAgICAgIGNvbnN0IHN0YXR1c0NvZGUgPSByZXMgPyByZXMuc3RhdHVzQ29kZSA6IGVyciA/XHJcbiAgICAgICAgICAgIGVyci5zdGF0dXNDb2RlIDogbnVsbDtcclxuICAgICAgICAgICAgcmV0dXJuIHtzdGF0dXNDb2RlfVxyXG4gICAgICAgIH1cclxuIFxyXG5leHBvcnQgZGVmYXVsdCBFcnJvcjsiXX0= */\n/*@ sourceURL=C:\\\\Users\\\\lbrito\\\\Dropbox\\\\Desarrollos\\\\Movenu Version 2019\\\\pages\\\\_error.js */"));
+  }, ".message.jsx-2339331309{padding:100px 30px;text-align:center;}h1.jsx-2339331309{margin-bottom:2em;}a.jsx-2339331309{color:#8756ca;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcbGJyaXRvXFxEcm9wYm94XFxEZXNhcnJvbGxvc1xcTW92ZW51IFZlcnNpb24gMjAxOVxccGFnZXNcXF9lcnJvci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFrQnFCLEFBR2dDLEFBSUQsQUFHSixjQUNoQixJQUhBLENBSm9CLGtCQUNwQiIsImZpbGUiOiJDOlxcVXNlcnNcXGxicml0b1xcRHJvcGJveFxcRGVzYXJyb2xsb3NcXE1vdmVudSBWZXJzaW9uIDIwMTlcXHBhZ2VzXFxfZXJyb3IuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTGF5b3V0IGZyb20gXCIuLi9jb21wb25lbnRzL0xheW91dFwiO1xyXG5pbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnO1xyXG5cclxuY29uc3QgRXJyb3IgPSAocHJvcHMpID0+IHtcclxuICAgIGNvbnN0IHN0YXR1c0NvZGUgPSBwcm9wcy5zdGF0dXNDb2RlO1xyXG4gICAgcmV0dXJuICggXHJcbiAgICAgICAgPExheW91dCB0aXRsZT1cIk9oIG5vIDooXCI+XHJcbiAgICAgICAgeyBzdGF0dXNDb2RlID09PSA0MDQgP1xyXG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJtZXNzYWdlXCI+XHJcbiAgICAgICAgICAgIDxoMT5Fc3RhIHDDoWdpbmEgbm8gZXhpc3RlIDooPC9oMT5cclxuICAgICAgICAgICAgPHA+PExpbmsgaHJlZj1cIi9cIj48YT5Wb2x2ZXIgYSBsYSBob21lPC9hPjwvTGluaz48L3A+XHJcbiAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgIDpcclxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibWVzc2FnZVwiPlxyXG4gICAgICAgICAgICA8aDE+SHVibyB1biBwcm9ibGVtYSA6KDwvaDE+XHJcbiAgICAgICAgICAgIDxwPkludGVudGEgbnVldmFtZW50ZSBlbiB1bm9zIHNlZ3VuZG9zPC9wPlxyXG4gICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgIH1cclxuICAgICAgICAgPHN0eWxlIGpzeD57YFxyXG4gICAgICAgICAgLm1lc3NhZ2Uge1xyXG4gICAgICAgICAgICBwYWRkaW5nOiAxMDBweCAzMHB4O1xyXG4gICAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICAgICAgICB9XHJcbiAgICAgICAgICBoMSB7XHJcbiAgICAgICAgICAgIG1hcmdpbi1ib3R0b206IDJlbTtcclxuICAgICAgICAgIH1cclxuICAgICAgICAgIGEge1xyXG4gICAgICAgICAgICBjb2xvcjogIzg3NTZjYTtcclxuICAgICAgICAgIH1cclxuICAgICAgICAgYH08L3N0eWxlPlxyXG4gICAgICAgICAgIDxzdHlsZSBqc3ggZ2xvYmFsPntgXHJcbiAgICAgICAgICAgICAgYm9keSB7XHJcbiAgICAgICAgICAgICAgICAgIG1hcmdpbjogMDtcclxuICAgICAgICAgICAgICAgICAgb3ZlcmZsb3cteDpoaWRkZW47XHJcbiAgICAgICAgICAgICAgICAgIGZvbnQtZmFtaWx5OiBzeXN0ZW0tdWk7XHJcbiAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgYH08L3N0eWxlPlxyXG4gICAgICA8L0xheW91dD5cclxuICAgICApXHJcbiAgIH1cclxuICAgICAgICBFcnJvci5nZXRJbml0aWFsUHJvcHMgPSBhc3luYyAoe3JlcywgZXJyfSkgPT57XHJcbiAgICAgICAgICAgIGNvbnN0IHN0YXR1c0NvZGUgPSByZXMgPyByZXMuc3RhdHVzQ29kZSA6IGVyciA/XHJcbiAgICAgICAgICAgIGVyci5zdGF0dXNDb2RlIDogbnVsbDtcclxuICAgICAgICAgICAgcmV0dXJuIHtzdGF0dXNDb2RlfVxyXG4gICAgICAgIH1cclxuIFxyXG5leHBvcnQgZGVmYXVsdCBFcnJvcjsiXX0= */\n/*@ sourceURL=C:\\\\Users\\\\lbrito\\\\Dropbox\\\\Desarrollos\\\\Movenu Version 2019\\\\pages\\\\_error.js */"), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    id: "2404192772",
+    __self: this
+  }, "body{margin:0;overflow-x:hidden;font-family:system-ui;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcbGJyaXRvXFxEcm9wYm94XFxEZXNhcnJvbGxvc1xcTW92ZW51IFZlcnNpb24gMjAxOVxccGFnZXNcXF9lcnJvci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUE4QjhCLEFBRzRCLFNBQ1Esa0JBQ0ssc0JBQzFCIiwiZmlsZSI6IkM6XFxVc2Vyc1xcbGJyaXRvXFxEcm9wYm94XFxEZXNhcnJvbGxvc1xcTW92ZW51IFZlcnNpb24gMjAxOVxccGFnZXNcXF9lcnJvci5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMYXlvdXQgZnJvbSBcIi4uL2NvbXBvbmVudHMvTGF5b3V0XCI7XHJcbmltcG9ydCBMaW5rIGZyb20gJ25leHQvbGluayc7XHJcblxyXG5jb25zdCBFcnJvciA9IChwcm9wcykgPT4ge1xyXG4gICAgY29uc3Qgc3RhdHVzQ29kZSA9IHByb3BzLnN0YXR1c0NvZGU7XHJcbiAgICByZXR1cm4gKCBcclxuICAgICAgICA8TGF5b3V0IHRpdGxlPVwiT2ggbm8gOihcIj5cclxuICAgICAgICB7IHN0YXR1c0NvZGUgPT09IDQwNCA/XHJcbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIm1lc3NhZ2VcIj5cclxuICAgICAgICAgICAgPGgxPkVzdGEgcMOhZ2luYSBubyBleGlzdGUgOig8L2gxPlxyXG4gICAgICAgICAgICA8cD48TGluayBocmVmPVwiL1wiPjxhPlZvbHZlciBhIGxhIGhvbWU8L2E+PC9MaW5rPjwvcD5cclxuICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgOlxyXG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJtZXNzYWdlXCI+XHJcbiAgICAgICAgICAgIDxoMT5IdWJvIHVuIHByb2JsZW1hIDooPC9oMT5cclxuICAgICAgICAgICAgPHA+SW50ZW50YSBudWV2YW1lbnRlIGVuIHVub3Mgc2VndW5kb3M8L3A+XHJcbiAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgfVxyXG4gICAgICAgICA8c3R5bGUganN4PntgXHJcbiAgICAgICAgICAubWVzc2FnZSB7XHJcbiAgICAgICAgICAgIHBhZGRpbmc6IDEwMHB4IDMwcHg7XHJcbiAgICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgICAgICAgIH1cclxuICAgICAgICAgIGgxIHtcclxuICAgICAgICAgICAgbWFyZ2luLWJvdHRvbTogMmVtO1xyXG4gICAgICAgICAgfVxyXG4gICAgICAgICAgYSB7XHJcbiAgICAgICAgICAgIGNvbG9yOiAjODc1NmNhO1xyXG4gICAgICAgICAgfVxyXG4gICAgICAgICBgfTwvc3R5bGU+XHJcbiAgICAgICAgICAgPHN0eWxlIGpzeCBnbG9iYWw+e2BcclxuICAgICAgICAgICAgICBib2R5IHtcclxuICAgICAgICAgICAgICAgICAgbWFyZ2luOiAwO1xyXG4gICAgICAgICAgICAgICAgICBvdmVyZmxvdy14OmhpZGRlbjtcclxuICAgICAgICAgICAgICAgICAgZm9udC1mYW1pbHk6IHN5c3RlbS11aTtcclxuICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICBgfTwvc3R5bGU+XHJcbiAgICAgIDwvTGF5b3V0PlxyXG4gICAgIClcclxuICAgfVxyXG4gICAgICAgIEVycm9yLmdldEluaXRpYWxQcm9wcyA9IGFzeW5jICh7cmVzLCBlcnJ9KSA9PntcclxuICAgICAgICAgICAgY29uc3Qgc3RhdHVzQ29kZSA9IHJlcyA/IHJlcy5zdGF0dXNDb2RlIDogZXJyID9cclxuICAgICAgICAgICAgZXJyLnN0YXR1c0NvZGUgOiBudWxsO1xyXG4gICAgICAgICAgICByZXR1cm4ge3N0YXR1c0NvZGV9XHJcbiAgICAgICAgfVxyXG4gXHJcbmV4cG9ydCBkZWZhdWx0IEVycm9yOyJdfQ== */\n/*@ sourceURL=C:\\\\Users\\\\lbrito\\\\Dropbox\\\\Desarrollos\\\\Movenu Version 2019\\\\pages\\\\_error.js */"));
 };
 
 Error.getInitialProps =
