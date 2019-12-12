@@ -14,7 +14,7 @@ const Committees = () =>{
           <div className="Badges__container">
             
 
-                  <Link ><a href="/comite/unicameral">
+                  <Link ><a href="/unicameral">
                       <LinkUnicameral />
                   </a>
                   </Link>
@@ -25,7 +25,7 @@ const Committees = () =>{
                   </a>
                   </Link>
       
-                  <Link><a href="/comite/security">
+                  <Link><a href="/security">
                       <LinkSecurity />
                     </a>    
                   </Link>

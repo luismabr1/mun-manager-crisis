@@ -28,6 +28,13 @@ const Error = (props) => {
             color: #8756ca;
           }
          `}</style>
+           <style jsx global>{`
+              body {
+                  margin: 0;
+                  overflow-x:hidden;
+                  font-family: system-ui;
+              }
+          `}</style>
       </Layout>
      )
    }

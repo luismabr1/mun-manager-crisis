@@ -14,17 +14,17 @@ const Navbar = () => {
           </a></Link>
 
           <Link  >
-              <a className="font-weight-light Navbar__items" href="/comite/unicameral">
+              <a className="font-weight-light Navbar__items" href="/unicameral">
                 Crisis Unicameral
               </a>
           </Link>  
           <Link >
-              <a className="font-weight-light Navbar__items"  href="/comite/bicameral">
+              <a className="font-weight-light Navbar__items"  href="/bicameral">
                 Crisis Bicameral
               </a>
           </Link>  
           <Link >
-              <a className="font-weight-light Navbar__items"  href="/comite/security">
+              <a className="font-weight-light Navbar__items"  href="/security">
                 Security Council
               </a>
            </Link>  

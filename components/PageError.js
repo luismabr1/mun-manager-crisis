@@ -1,9 +1,9 @@
-import React from 'react';
+
 
 
 const PageError = (props) => {
 
-    <div className="PageError"><h1>error</h1>{/* {props.error.message} */}</div>;
+    <div className="PageError"><h1>error</h1>{/* {props.error.message} */}</div>
   <style>{`
   .PageError {
     display: flex;
@@ -14,6 +14,8 @@ const PageError = (props) => {
     width: 100%;
   }
   `}</style>
+
+
     
 }
 

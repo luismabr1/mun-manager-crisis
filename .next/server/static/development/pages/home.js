@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -650,7 +650,7 @@ const Navbar = () => {
     __self: undefined
   }, __jsx("a", {
     className: "font-weight-light Navbar__items",
-    href: "/comite/unicameral",
+    href: "/unicameral",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
@@ -664,7 +664,7 @@ const Navbar = () => {
     __self: undefined
   }, __jsx("a", {
     className: "font-weight-light Navbar__items",
-    href: "/comite/bicameral",
+    href: "/bicameral",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22
@@ -678,7 +678,7 @@ const Navbar = () => {
     __self: undefined
   }, __jsx("a", {
     className: "font-weight-light Navbar__items",
-    href: "/comite/security",
+    href: "/security",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 27
@@ -2613,7 +2613,7 @@ const Committees = () => {
     },
     __self: undefined
   }, __jsx("a", {
-    href: "/comite/unicameral",
+    href: "/unicameral",
     className: "jsx-3184723951",
     __source: {
       fileName: _jsxFileName,
@@ -2653,7 +2653,7 @@ const Committees = () => {
     },
     __self: undefined
   }, __jsx("a", {
-    href: "/comite/security",
+    href: "/security",
     className: "jsx-3184723951",
     __source: {
       fileName: _jsxFileName,
@@ -2669,7 +2669,7 @@ const Committees = () => {
   })))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "3184723951",
     __self: undefined
-  }, ".container.jsx-3184723951 h1.jsx-3184723951{text-align:center;}.Badges__container.jsx-3184723951{width:100%;display:grid;grid-template-columns:repeat(auto-fill,minmax(480px,1fr));height:auto;text-align:center;}.Badges_conf-logo.jsx-3184723951{margin-bottom:2rem;width:260px;}a.jsx-3184723951{width:100%;-webkit-text-decoration:none;text-decoration:none;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcbGJyaXRvXFxEcm9wYm94XFxEZXNhcnJvbGxvc1xcTW92ZW51IFZlcnNpb24gMjAxOVxccGFnZXNcXGNvbW1pdHRlZXMuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBa0NvQixBQUkrQixBQUdQLEFBU1EsQUFNUixXQWRHLEFBZU8sT0FsQnZCLENBWWMsS0FSZ0QsT0FTOUQsOEJBTUEscUJBZGMsWUFDTSxrQkFDcEIiLCJmaWxlIjoiQzpcXFVzZXJzXFxsYnJpdG9cXERyb3Bib3hcXERlc2Fycm9sbG9zXFxNb3ZlbnUgVmVyc2lvbiAyMDE5XFxwYWdlc1xcY29tbWl0dGVlcy5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMaW5rIGZyb20gJ25leHQvbGluayc7XHJcbmltcG9ydCBMaW5rQmljYW1lcmFsIGZyb20gJy4uL2NvbXBvbmVudHMvTGlua0JpY2FtZXJhbCc7XHJcbmltcG9ydCBMaW5rU2VjdXJpdHkgZnJvbSAnLi4vY29tcG9uZW50cy9MaW5rU2VjdXJpdHknO1xyXG5pbXBvcnQgTGlua1VuaWNhbWVyYWwgZnJvbSAnLi4vY29tcG9uZW50cy9MaW5rVW5pY2FtZXJhbC5qcyc7XHJcblxyXG5cclxuXHJcbmNvbnN0IENvbW1pdHRlZXMgPSAoKSA9PntcclxuICAgICAgICByZXR1cm4gKFxyXG5cclxuICAgICA8UmVhY3QuRnJhZ21lbnQ+XHJcbiAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbnRhaW5lclwiPlxyXG4gICAgICAgICAgPGgxPkNvbWl0ZXMgZGlzcG9uaWJsZXM8L2gxPlxyXG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJCYWRnZXNfX2NvbnRhaW5lclwiPlxyXG4gICAgICAgICAgICBcclxuXHJcbiAgICAgICAgICAgICAgICAgIDxMaW5rID48YSBocmVmPVwiL2NvbWl0ZS91bmljYW1lcmFsXCI+XHJcbiAgICAgICAgICAgICAgICAgICAgICA8TGlua1VuaWNhbWVyYWwgLz5cclxuICAgICAgICAgICAgICAgICAgPC9hPlxyXG4gICAgICAgICAgICAgICAgICA8L0xpbms+XHJcbiAgICAgIFxyXG4gICAgICAgICAgICAgICAgICA8TGluayA+PGEgaHJlZj1cIi9iaWNhbWVyYWxcIj5cclxuICAgICAgICAgICAgICAgICAgICAgIDxMaW5rQmljYW1lcmFsIC8+XHJcblxyXG4gICAgICAgICAgICAgICAgICA8L2E+XHJcbiAgICAgICAgICAgICAgICAgIDwvTGluaz5cclxuICAgICAgXHJcbiAgICAgICAgICAgICAgICAgIDxMaW5rPjxhIGhyZWY9XCIvY29taXRlL3NlY3VyaXR5XCI+XHJcbiAgICAgICAgICAgICAgICAgICAgICA8TGlua1NlY3VyaXR5IC8+XHJcbiAgICAgICAgICAgICAgICAgICAgPC9hPiAgICBcclxuICAgICAgICAgICAgICAgICAgPC9MaW5rPlxyXG4gICAgICAgICAgICA8L2Rpdj5cclxuIFxyXG5cclxuICAgICAgICA8c3R5bGUganN4PntgICBcclxuICAgICAgICBcclxuICAgICAgICAgIC5jb250YWluZXIgaDF7XHJcbiAgICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgICAgICAgIH1cclxuICAgICAgICAgIC5CYWRnZXNfX2NvbnRhaW5lciB7XHJcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgICAgICAgICBkaXNwbGF5OiBncmlkIDtcclxuICAgICAgICAgICAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiByZXBlYXQoYXV0by1maWxsLCBtaW5tYXgoNDgwcHgsIDFmcikpOyBcclxuICAgICAgICAgICAgaGVpZ2h0OiBhdXRvO1xyXG4gICAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICAgICAgICB9ICBcclxuICAgICAgICAgIFxyXG4gICAgICAgICAgXHJcbiAgICAgICAgICAuQmFkZ2VzX2NvbmYtbG9nbyB7XHJcbiAgICAgICAgICAgIG1hcmdpbi1ib3R0b206IDJyZW07XHJcbiAgICAgICAgICAgIHdpZHRoOiAyNjBweDtcclxuICAgICAgICAgIH1cclxuXHJcbiAgICAgICAgICBcclxuICAgICAgICAgICBhIHtcclxuICAgICAgICAgICAgd2lkdGg6IDEwMCU7XHJcbiAgICAgICAgICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcclxuICAgICAgICAgIH1cclxuICAgICAgICAgIFxyXG5cclxuICAgICAgICBgfTwvc3R5bGU+XHJcbiAgICAgIDwvZGl2PlxyXG4gICAgICAgPC9SZWFjdC5GcmFnbWVudD4gXHJcbiAgICAgICAgKVxyXG5cclxuICAgfSAgIFxyXG5cclxuIFxyXG4gXHJcbiBleHBvcnQgZGVmYXVsdCBDb21taXR0ZWVzOyJdfQ== */\n/*@ sourceURL=C:\\\\Users\\\\lbrito\\\\Dropbox\\\\Desarrollos\\\\Movenu Version 2019\\\\pages\\\\committees.js */")));
+  }, ".container.jsx-3184723951 h1.jsx-3184723951{text-align:center;}.Badges__container.jsx-3184723951{width:100%;display:grid;grid-template-columns:repeat(auto-fill,minmax(480px,1fr));height:auto;text-align:center;}.Badges_conf-logo.jsx-3184723951{margin-bottom:2rem;width:260px;}a.jsx-3184723951{width:100%;-webkit-text-decoration:none;text-decoration:none;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcbGJyaXRvXFxEcm9wYm94XFxEZXNhcnJvbGxvc1xcTW92ZW51IFZlcnNpb24gMjAxOVxccGFnZXNcXGNvbW1pdHRlZXMuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBa0NvQixBQUkrQixBQUdQLEFBU1EsQUFNUixXQWRHLEFBZU8sT0FsQnZCLENBWWMsS0FSZ0QsT0FTOUQsOEJBTUEscUJBZGMsWUFDTSxrQkFDcEIiLCJmaWxlIjoiQzpcXFVzZXJzXFxsYnJpdG9cXERyb3Bib3hcXERlc2Fycm9sbG9zXFxNb3ZlbnUgVmVyc2lvbiAyMDE5XFxwYWdlc1xcY29tbWl0dGVlcy5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMaW5rIGZyb20gJ25leHQvbGluayc7XHJcbmltcG9ydCBMaW5rQmljYW1lcmFsIGZyb20gJy4uL2NvbXBvbmVudHMvTGlua0JpY2FtZXJhbCc7XHJcbmltcG9ydCBMaW5rU2VjdXJpdHkgZnJvbSAnLi4vY29tcG9uZW50cy9MaW5rU2VjdXJpdHknO1xyXG5pbXBvcnQgTGlua1VuaWNhbWVyYWwgZnJvbSAnLi4vY29tcG9uZW50cy9MaW5rVW5pY2FtZXJhbC5qcyc7XHJcblxyXG5cclxuXHJcbmNvbnN0IENvbW1pdHRlZXMgPSAoKSA9PntcclxuICAgICAgICByZXR1cm4gKFxyXG5cclxuICAgICA8UmVhY3QuRnJhZ21lbnQ+XHJcbiAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbnRhaW5lclwiPlxyXG4gICAgICAgICAgPGgxPkNvbWl0ZXMgZGlzcG9uaWJsZXM8L2gxPlxyXG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJCYWRnZXNfX2NvbnRhaW5lclwiPlxyXG4gICAgICAgICAgICBcclxuXHJcbiAgICAgICAgICAgICAgICAgIDxMaW5rID48YSBocmVmPVwiL3VuaWNhbWVyYWxcIj5cclxuICAgICAgICAgICAgICAgICAgICAgIDxMaW5rVW5pY2FtZXJhbCAvPlxyXG4gICAgICAgICAgICAgICAgICA8L2E+XHJcbiAgICAgICAgICAgICAgICAgIDwvTGluaz5cclxuICAgICAgXHJcbiAgICAgICAgICAgICAgICAgIDxMaW5rID48YSBocmVmPVwiL2JpY2FtZXJhbFwiPlxyXG4gICAgICAgICAgICAgICAgICAgICAgPExpbmtCaWNhbWVyYWwgLz5cclxuXHJcbiAgICAgICAgICAgICAgICAgIDwvYT5cclxuICAgICAgICAgICAgICAgICAgPC9MaW5rPlxyXG4gICAgICBcclxuICAgICAgICAgICAgICAgICAgPExpbms+PGEgaHJlZj1cIi9zZWN1cml0eVwiPlxyXG4gICAgICAgICAgICAgICAgICAgICAgPExpbmtTZWN1cml0eSAvPlxyXG4gICAgICAgICAgICAgICAgICAgIDwvYT4gICAgXHJcbiAgICAgICAgICAgICAgICAgIDwvTGluaz5cclxuICAgICAgICAgICAgPC9kaXY+XHJcbiBcclxuXHJcbiAgICAgICAgPHN0eWxlIGpzeD57YCAgXHJcbiAgICAgICAgXHJcbiAgICAgICAgICAuY29udGFpbmVyIGgxe1xyXG4gICAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICAgICAgICB9XHJcbiAgICAgICAgICAuQmFkZ2VzX19jb250YWluZXIge1xyXG4gICAgICAgICAgICB3aWR0aDogMTAwJTtcclxuICAgICAgICAgICAgZGlzcGxheTogZ3JpZCA7XHJcbiAgICAgICAgICAgIGdyaWQtdGVtcGxhdGUtY29sdW1uczogcmVwZWF0KGF1dG8tZmlsbCwgbWlubWF4KDQ4MHB4LCAxZnIpKTsgXHJcbiAgICAgICAgICAgIGhlaWdodDogYXV0bztcclxuICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgICAgICAgfSAgXHJcbiAgICAgICAgICBcclxuICAgICAgICAgIFxyXG4gICAgICAgICAgLkJhZGdlc19jb25mLWxvZ28ge1xyXG4gICAgICAgICAgICBtYXJnaW4tYm90dG9tOiAycmVtO1xyXG4gICAgICAgICAgICB3aWR0aDogMjYwcHg7XHJcbiAgICAgICAgICB9XHJcblxyXG4gICAgICAgICAgXHJcbiAgICAgICAgICAgYSB7XHJcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgICAgICAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XHJcbiAgICAgICAgICB9XHJcbiAgICAgICAgICBcclxuXHJcbiAgICAgICAgYH08L3N0eWxlPlxyXG4gICAgICA8L2Rpdj5cclxuICAgICAgIDwvUmVhY3QuRnJhZ21lbnQ+IFxyXG4gICAgICAgIClcclxuXHJcbiAgIH0gICBcclxuXHJcbiBcclxuIFxyXG4gZXhwb3J0IGRlZmF1bHQgQ29tbWl0dGVlczsiXX0= */\n/*@ sourceURL=C:\\\\Users\\\\lbrito\\\\Dropbox\\\\Desarrollos\\\\Movenu Version 2019\\\\pages\\\\committees.js */")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Committees);
@@ -2776,7 +2776,7 @@ module.exports = "/_next/static/images/mafia-a8493c2568dd1ff09294b23ca1d3e01c.jp
 
 /***/ }),
 
-/***/ 3:
+/***/ 5:
 /*!*****************************!*\
   !*** multi ./pages/home.js ***!
   \*****************************/
