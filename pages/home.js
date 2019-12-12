@@ -1,10 +1,9 @@
-
 import Layout from '../components/Layout';
 import Committees from './committees';
-import api from './api/api';
 
 
-const Home = (props) => {
+
+const Home = () => {
 
 
     return ( 
@@ -15,7 +14,7 @@ const Home = (props) => {
             <style jsx global>{`
                 body {
                     margin: 0;
-                    overflow:hidden;
+                    overflow-x:hidden;
                     font-family: system-ui;
                 }
             `}</style>

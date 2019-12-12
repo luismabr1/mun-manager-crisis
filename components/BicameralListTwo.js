@@ -1,5 +1,5 @@
-import React from 'react';
 import Link from 'next/link';
+import Gravatar from '../components/Gravatar';
 /* import Gravatar from './Gravatar'; */
 
 
@@ -10,25 +10,21 @@ class BadgesListItem extends React.Component {
       <div className="BadgesListItem">
         <Gravatar
           className="BadgesListItem__avatar"
-          email={this.props.badge.email}
+          email={this.props.badge.image}
         />
 
         <div>
           <strong>
-            {this.props.badge.delegado}
+            {this.props.badge.name}
             &nbsp;&nbsp; || &nbsp;&nbsp;
-            {this.props.badge.comite}
+            {this.props.badge.spieces}
           </strong>
-          <br />@{this.props.badge.asunto}
+          <br />@{this.props.badge.type}
           <br />
-          {this.props.badge.descripcion}
+          {this.props.badge.origin.name}
         </div>
         <style jsx>{`
-            .BadgesList ul>li {
-                margin-bottom: 1rem;
-              }
-              
-              .BadgesListItem {
+            .BadgesListItem {
                 background: #FFFFFF;
                 box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.23);
                 border-radius: 5px;
@@ -49,51 +45,28 @@ class BadgesListItem extends React.Component {
   }
 }
 
-function useSearchBadges(badgesTwo) {
+function useSearchBadges(badges) {
   const [query, setQuery] = React.useState('');
-  const [filteredBadges, setFilteredBadges] = React.useState(badgesTwo);
+  const [filteredBadges, setFilteredBadges] = React.useState(badges);
 
   React.useMemo(() => {
-    const result = badgesTwo.filter(badge => {
-      if(badge.clave==="comitec"){
-      return `${badge.delegado}`
+    const result = badges.filter(badge => {
+      return `${badge.name}`
         .toLowerCase()
         .includes(query.toLowerCase());
-      }
-      });
-  
+    });
 
     setFilteredBadges(result);
-  }, [badgesTwo, query]);
+  }, [badges, query]);
 
   return { query, setQuery, filteredBadges };
 }
-
-/*   function useSearchBadgesTwo(badgesTwo) {
-  const [queryTwo, setQueryTwo] = React.useState('');
-  const [filteredBadgesTwo, setFilteredBadgesTwo] = React.useState(badgesTwo);
-
-  React.useMemo(() => {
-    const result = badgesTwo.filter(badgeTwo => {
-      return `${badgeTwo.delegado}`
-        .toLowerCase()
-        .includes(queryTwo.toLowerCase());
-    });
-
-    setFilteredBadgesTwo(result);
-  }, [badgesTwo, queryTwo]);
-
-  return { queryTwo, setQueryTwo, filteredBadgesTwo};
-}  
- */
 
 
 function BadgesList(props) {
   const badges = props.badges;
 
-
   const { query, setQuery, filteredBadges } = useSearchBadges(badges);
-
 
   if (filteredBadges.length === 0) {
     return (
@@ -102,7 +75,7 @@ function BadgesList(props) {
           <label>Filter Directives</label>
           <input
             type="text"
-            placeholder="Comite C"
+            placeholder="Comite B"
             className="form-control"
             value={query}
             onChange={e => {
@@ -119,37 +92,14 @@ function BadgesList(props) {
     );
   } 
 
-/*    if (filteredBadgesTwo.length === 0) {
-    return (
-      <div>
-        <div className="form-group">
-          <label>Filter Directives</label>
-          <input
-            type="text"
-            className="form-control"
-            value={queryTwo}
-            onChange={e => {
-              setQueryTwo(e.target.value);
-            }}
-          />
-        </div>
- 
-        <h3>No directives were found</h3>
-        <Link className="btn btn-primary" to="/badges/new">
-          Create new state
-        </Link>
-      </div>
-    );
-  }
- */
   return (
 
     <div className="Badges__container">
-        {/* <div className="form-group">
+        <div className="form-group">
             <label>Filter Directives</label>
             <input
               type="text"
-              placeholder="Buscar en comite A "
+              placeholder="Buscar en comite B"
               className="form-control"
               value={query}
               onChange={e => {
@@ -157,37 +107,6 @@ function BadgesList(props) {
               }}
             />
           
-
-          <ul className="list-unstyled">
-            {filteredBadges.map(badge => {
-              return (
-                <li key={badge.id}>
-                  <Link
-                    className="text-reset text-decoration-none"
-                    to={`/badges/${badge.id}`}
-                  >
-                    <BadgesListItem badge={badge} />
-                  </Link>
-                </li>
-              );
-            })}
-          </ul>
-
-        </div> */}
-
-
-        <div className="form-group">
-            <label>Filter Directives</label>
-            <input
-              type="text"
-              placeholder="Buscar en comite C"
-              className="form-control"
-              value={query}
-              onChange={e => {
-                setQuery(e.target.value);
-              }}
-            />
-        
 
           <ul className="list-unstyled">
             {filteredBadges.map(badge => {
@@ -203,8 +122,56 @@ function BadgesList(props) {
               );
             })}
           </ul>
+
         </div>
-    
+        <style >{`
+         .BadgesListItem {
+            background: #FFFFFF;
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.23);
+            border-radius: 5px;
+            display: flex;
+            padding: 1rem;
+          }
+          
+          .BadgesListItem__avatar {
+            border-radius: 50%;
+            background: #a3a3a3;
+            margin-right: 0.5rem;
+            width: 100px;
+            height: 100px;
+          }
+            .list-unstyled {
+                padding-left: 0;
+                list-style: none;
+              }
+
+              .text-reset {
+                color: inherit !important;
+              }
+              .text-decoration-none {
+                text-decoration: none !important;
+              }
+              .form-control {
+                display: block;
+                width: 100%;
+                height: calc(1.5em + 0.75rem + 2px);
+                padding: 0.375rem 0.75rem;
+                font-size: 1rem;
+                font-weight: 400;
+                line-height: 1.5;
+                color: #495057;
+                background-color: #fff;
+                background-clip: padding-box;
+                border: 1px solid #ced4da;
+                border-radius: 0.25rem;
+                transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+              }
+              .form-group {
+                margin-bottom: 1rem;
+              }
+              
+
+        `}</style>
     </div>
 
 
