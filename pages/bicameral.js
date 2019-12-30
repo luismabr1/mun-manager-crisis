@@ -58,7 +58,9 @@ const Bicameral = (props) =>  {
                 {loading && <MiniLoader />}
                 </div>
             </div>
+        
             </div>
+
             <style jsx>{`
             .Badges__hero {
                 width: 100%;
@@ -79,6 +81,13 @@ const Bicameral = (props) =>  {
                 height: auto;
                 padding: 0 1rem;
             }  
+            .Badges__container:hover ~ .BadgesListItem{
+                opacity: 0.3;
+              }
+              .Badges__container:hover ~ .BadgesListItem:hover{
+                transform: scale(1.5);
+                opacity: 0;
+              }
             
             .Badges__list__container {
                 width: 45%;
@@ -168,10 +177,10 @@ const Bicameral = (props) =>  {
 
     }
 
-  Bicameral.getInitialProps = async ({ res }) => {
-
+  Bicameral.getInitialProps = async ({ res, query }) => {
+    let nextPage = query.id
     try {
-      let req = await fetch('https://rickandmortyapi.com/api/character');
+      let req = await fetch(`https://rickandmortyapi.com/api/character/?page=${nextPage}`);
       /* let req = await api.badges.list(); */
       let data = await req.json();
 

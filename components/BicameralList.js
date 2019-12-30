@@ -126,18 +126,20 @@ function BadgesList(props) {
         </div>
         <style>{`
          .BadgesListItem {
-            background: #FFFFFF;
-            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.23);
-            border-radius: 5px;
-            display: flex;
-            padding: 1rem;
-            cursor: pointer;
-            -webkit-transition: width 2s; /* Safari prior 6.1 */
-            transition: 600ms;
+           background: #FFFFFF;
+           box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.23);
+           border-radius: 5px;
+           display: flex;
+           padding: 1rem;
+           cursor: pointer;
+           -webkit-transition: width 2s; /* Safari prior 6.1 */
+           transition: 450ms aññ;
           }
           .BadgesListItem:hover{
             transform: scale(1.1);
+            transform: translate3d(0, 10px, 0);
           }
+
           
           .BadgesListItem__avatar {
             border-radius: 50%;
